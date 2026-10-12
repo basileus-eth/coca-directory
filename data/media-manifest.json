@@ -1,0 +1,2130 @@
+{
+ "generated": "2026-10-12T18:45:48.514Z",
+ "media": {
+  "basileus_eth": {
+   "avatar": {
+    "original": "media/originals/basileus_eth-avatar.jpg",
+    "w": 382,
+    "h": 382,
+    "src256": "media/web/basileus_eth-avatar-256.webp",
+    "src512": "media/web/basileus_eth-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/basileus_eth-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/basileus_eth-banner-750.webp",
+    "src1500": "media/web/basileus_eth-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "unityofmulti": {
+   "avatar": {
+    "original": "media/originals/unityofmulti-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/unityofmulti-avatar-256.webp",
+    "src512": "media/web/unityofmulti-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/unityofmulti-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/unityofmulti-banner-750.webp",
+    "src1500": "media/web/unityofmulti-banner-1500.webp"
+   },
+   "color": "#d8d8d8"
+  },
+  "bananakin": {
+   "avatar": {
+    "original": "media/originals/bananakin-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/bananakin-avatar-256.webp",
+    "src512": "media/web/bananakin-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/bananakin-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/bananakin-banner-750.webp",
+    "src1500": "media/web/bananakin-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "bardionson": {
+   "avatar": {
+    "original": "media/originals/BardIonson-avatar.png",
+    "w": 500,
+    "h": 315,
+    "src256": "media/web/BardIonson-avatar-256.webp",
+    "src512": "media/web/BardIonson-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/BardIonson-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/BardIonson-banner-750.webp",
+    "src1500": "media/web/BardIonson-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "mattiac": {
+   "avatar": {
+    "original": "media/originals/MattiaC-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MattiaC-avatar-256.webp",
+    "src512": "media/web/MattiaC-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MattiaC-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MattiaC-banner-750.webp",
+    "src1500": "media/web/MattiaC-banner-1500.webp"
+   },
+   "color": "#181818"
+  },
+  "vectormeldrew": {
+   "avatar": {
+    "original": "media/originals/VectorMeldrew-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/VectorMeldrew-avatar-256.webp",
+    "src512": "media/web/VectorMeldrew-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/VectorMeldrew-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/VectorMeldrew-banner-750.webp",
+    "src1500": "media/web/VectorMeldrew-banner-1500.webp"
+   },
+   "color": "#080848"
+  },
+  "cerenyuzgul": {
+   "avatar": {
+    "original": "media/originals/cerenyuzgul-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/cerenyuzgul-avatar-256.webp",
+    "src512": "media/web/cerenyuzgul-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/cerenyuzgul-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/cerenyuzgul-banner-750.webp",
+    "src1500": "media/web/cerenyuzgul-banner-1500.webp"
+   },
+   "color": "#183848"
+  },
+  "plutonicmind": {
+   "avatar": {
+    "original": "media/originals/plutonicmind-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/plutonicmind-avatar-256.webp",
+    "src512": "media/web/plutonicmind-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/plutonicmind-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/plutonicmind-banner-750.webp",
+    "src1500": "media/web/plutonicmind-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "mrcnft": {
+   "avatar": {
+    "original": "media/originals/MrCNFT-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MrCNFT-avatar-256.webp",
+    "src512": "media/web/MrCNFT-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MrCNFT-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MrCNFT-banner-750.webp",
+    "src1500": "media/web/MrCNFT-banner-1500.webp"
+   },
+   "color": "#385868"
+  },
+  "wgmeets": {
+   "avatar": {
+    "original": "media/originals/WGMeets-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/WGMeets-avatar-256.webp",
+    "src512": "media/web/WGMeets-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/WGMeets-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/WGMeets-banner-750.webp",
+    "src1500": "media/web/WGMeets-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "arthr": {
+   "avatar": {
+    "original": "media/originals/arthr-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/arthr-avatar-256.webp",
+    "src512": "media/web/arthr-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/arthr-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/arthr-banner-750.webp",
+    "src1500": "media/web/arthr-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "moxarra": {
+   "avatar": {
+    "original": "media/originals/Moxarra-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Moxarra-avatar-256.webp",
+    "src512": "media/web/Moxarra-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Moxarra-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Moxarra-banner-750.webp",
+    "src1500": "media/web/Moxarra-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "stina_jones": {
+   "avatar": {
+    "original": "media/originals/stina_jones-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/stina_jones-avatar-256.webp",
+    "src512": "media/web/stina_jones-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/stina_jones-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/stina_jones-banner-750.webp",
+    "src1500": "media/web/stina_jones-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "flakoubay": {
+   "avatar": {
+    "original": "media/originals/flakoubay-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/flakoubay-avatar-256.webp",
+    "src512": "media/web/flakoubay-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/flakoubay-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/flakoubay-banner-750.webp",
+    "src1500": "media/web/flakoubay-banner-1500.webp"
+   },
+   "color": "#f8f8e8"
+  },
+  "mikkolyytinen": {
+   "avatar": {
+    "original": "media/originals/MikkoLyytinen-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MikkoLyytinen-avatar-256.webp",
+    "src512": "media/web/MikkoLyytinen-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MikkoLyytinen-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MikkoLyytinen-banner-750.webp",
+    "src1500": "media/web/MikkoLyytinen-banner-1500.webp"
+   },
+   "color": "#a8b8d8"
+  },
+  "nikitadiakur": {
+   "avatar": {
+    "original": "media/originals/nikitadiakur-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/nikitadiakur-avatar-256.webp",
+    "src512": "media/web/nikitadiakur-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/nikitadiakur-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/nikitadiakur-banner-750.webp",
+    "src1500": "media/web/nikitadiakur-banner-1500.webp"
+   },
+   "color": "#68a8f8"
+  },
+  "lelapinmignon": {
+   "avatar": {
+    "original": "media/originals/Lelapinmignon-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Lelapinmignon-avatar-256.webp",
+    "src512": "media/web/Lelapinmignon-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Lelapinmignon-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Lelapinmignon-banner-750.webp",
+    "src1500": "media/web/Lelapinmignon-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "defiantsquid": {
+   "avatar": {
+    "original": "media/originals/DefiantSquid-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/DefiantSquid-avatar-256.webp",
+    "src512": "media/web/DefiantSquid-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/DefiantSquid-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/DefiantSquid-banner-750.webp",
+    "src1500": "media/web/DefiantSquid-banner-1500.webp"
+   },
+   "color": "#0848a8"
+  },
+  "boyageorge": {
+   "avatar": {
+    "original": "media/originals/BoyaGeorge-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/BoyaGeorge-avatar-256.webp",
+    "src512": "media/web/BoyaGeorge-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/BoyaGeorge-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/BoyaGeorge-banner-750.webp",
+    "src1500": "media/web/BoyaGeorge-banner-1500.webp"
+   },
+   "color": "#d8d8e8"
+  },
+  "dat_ogar": {
+   "avatar": {
+    "original": "media/originals/Dat_Ogar-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Dat_Ogar-avatar-256.webp",
+    "src512": "media/web/Dat_Ogar-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Dat_Ogar-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Dat_Ogar-banner-750.webp",
+    "src1500": "media/web/Dat_Ogar-banner-1500.webp"
+   },
+   "color": "#080818"
+  },
+  "dark0eth": {
+   "avatar": {
+    "original": "media/originals/dark0eth-avatar.jpg",
+    "w": 227,
+    "h": 227,
+    "src256": "media/web/dark0eth-avatar-256.webp",
+    "src512": "media/web/dark0eth-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/dark0eth-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/dark0eth-banner-750.webp",
+    "src1500": "media/web/dark0eth-banner-1500.webp"
+   },
+   "color": "#a8e8f8"
+  },
+  "castorfeliz": {
+   "avatar": {
+    "original": "media/originals/castorfeliz-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/castorfeliz-avatar-256.webp",
+    "src512": "media/web/castorfeliz-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/castorfeliz-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/castorfeliz-banner-750.webp",
+    "src1500": "media/web/castorfeliz-banner-1500.webp"
+   },
+   "color": "#e8f8b8"
+  },
+  "scooter0x": {
+   "avatar": {
+    "original": "media/originals/Scooter0x-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Scooter0x-avatar-256.webp",
+    "src512": "media/web/Scooter0x-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Scooter0x-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Scooter0x-banner-750.webp",
+    "src1500": "media/web/Scooter0x-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "bitpixi": {
+   "avatar": {
+    "original": "media/originals/bitpixi-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/bitpixi-avatar-256.webp",
+    "src512": "media/web/bitpixi-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/bitpixi-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/bitpixi-banner-750.webp",
+    "src1500": "media/web/bitpixi-banner-1500.webp"
+   },
+   "color": "#e8b8c8"
+  },
+  "skeenee_art": {
+   "avatar": {
+    "original": "media/originals/skeenee_art-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/skeenee_art-avatar-256.webp",
+    "src512": "media/web/skeenee_art-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/skeenee_art-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/skeenee_art-banner-750.webp",
+    "src1500": "media/web/skeenee_art-banner-1500.webp"
+   },
+   "color": "#f8e8d8"
+  },
+  "spacedpainter": {
+   "avatar": {
+    "original": "media/originals/SpacedPainter-avatar.jpg",
+    "w": 297,
+    "h": 297,
+    "src256": "media/web/SpacedPainter-avatar-256.webp",
+    "src512": "media/web/SpacedPainter-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/SpacedPainter-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/SpacedPainter-banner-750.webp",
+    "src1500": "media/web/SpacedPainter-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "metageistvr": {
+   "avatar": {
+    "original": "media/originals/MetageistVR-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MetageistVR-avatar-256.webp",
+    "src512": "media/web/MetageistVR-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MetageistVR-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MetageistVR-banner-750.webp",
+    "src1500": "media/web/MetageistVR-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "jivdontexist": {
+   "avatar": {
+    "original": "media/originals/jivdontexist-avatar.jpg",
+    "w": 399,
+    "h": 399,
+    "src256": "media/web/jivdontexist-avatar-256.webp",
+    "src512": "media/web/jivdontexist-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/jivdontexist-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/jivdontexist-banner-750.webp",
+    "src1500": "media/web/jivdontexist-banner-1500.webp"
+   },
+   "color": "#889898"
+  },
+  "basseadx": {
+   "avatar": {
+    "original": "media/originals/basseadx-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/basseadx-avatar-256.webp",
+    "src512": "media/web/basseadx-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/basseadx-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/basseadx-banner-750.webp",
+    "src1500": "media/web/basseadx-banner-1500.webp"
+   },
+   "color": "#f8d898"
+  },
+  "kibodesigns": {
+   "avatar": {
+    "original": "media/originals/KiboDesigns-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/KiboDesigns-avatar-256.webp",
+    "src512": "media/web/KiboDesigns-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/KiboDesigns-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/KiboDesigns-banner-750.webp",
+    "src1500": "media/web/KiboDesigns-banner-1500.webp"
+   },
+   "color": "#282828"
+  },
+  "mlibty": {
+   "avatar": {
+    "original": "media/originals/mlibty-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/mlibty-avatar-256.webp",
+    "src512": "media/web/mlibty-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/mlibty-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/mlibty-banner-750.webp",
+    "src1500": "media/web/mlibty-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "neurocolor": {
+   "avatar": {
+    "original": "media/originals/neurocolor-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/neurocolor-avatar-256.webp",
+    "src512": "media/web/neurocolor-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/neurocolor-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/neurocolor-banner-750.webp",
+    "src1500": "media/web/neurocolor-banner-1500.webp"
+   },
+   "color": "#f878f8"
+  },
+  "fabianospeziari": {
+   "avatar": {
+    "original": "media/originals/fabianospeziari-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/fabianospeziari-avatar-256.webp",
+    "src512": "media/web/fabianospeziari-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/fabianospeziari-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/fabianospeziari-banner-750.webp",
+    "src1500": "media/web/fabianospeziari-banner-1500.webp"
+   },
+   "color": "#b8b8b8"
+  },
+  "atbarbaralove": {
+   "avatar": {
+    "original": "media/originals/atbarbaralove-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/atbarbaralove-avatar-256.webp",
+    "src512": "media/web/atbarbaralove-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/atbarbaralove-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/atbarbaralove-banner-750.webp",
+    "src1500": "media/web/atbarbaralove-banner-1500.webp"
+   },
+   "color": "#b8a898"
+  },
+  "mrmonkx": {
+   "avatar": {
+    "original": "media/originals/MrMonkX-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MrMonkX-avatar-256.webp",
+    "src512": "media/web/MrMonkX-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MrMonkX-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MrMonkX-banner-750.webp",
+    "src1500": "media/web/MrMonkX-banner-1500.webp"
+   },
+   "color": "#f818c8"
+  },
+  "ann_ahoy": {
+   "avatar": {
+    "original": "media/originals/Ann_ahoy-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Ann_ahoy-avatar-256.webp",
+    "src512": "media/web/Ann_ahoy-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Ann_ahoy-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Ann_ahoy-banner-750.webp",
+    "src1500": "media/web/Ann_ahoy-banner-1500.webp"
+   },
+   "color": "#a8f858"
+  },
+  "takenstheorem": {
+   "avatar": {
+    "original": "media/originals/takenstheorem-avatar.jpg",
+    "w": 389,
+    "h": 389,
+    "src256": "media/web/takenstheorem-avatar-256.webp",
+    "src512": "media/web/takenstheorem-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/takenstheorem-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/takenstheorem-banner-750.webp",
+    "src1500": "media/web/takenstheorem-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "sturec5": {
+   "avatar": {
+    "original": "media/originals/sturec5-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/sturec5-avatar-256.webp",
+    "src512": "media/web/sturec5-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/sturec5-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/sturec5-banner-750.webp",
+    "src1500": "media/web/sturec5-banner-1500.webp"
+   },
+   "color": "#b88858"
+  },
+  "didierra1": {
+   "avatar": {
+    "original": "media/originals/DidierRA1-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/DidierRA1-avatar-256.webp",
+    "src512": "media/web/DidierRA1-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/DidierRA1-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/DidierRA1-banner-750.webp",
+    "src1500": "media/web/DidierRA1-banner-1500.webp"
+   },
+   "color": "#282828"
+  },
+  "forceshidden": {
+   "avatar": {
+    "original": "media/originals/ForcesHidden-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/ForcesHidden-avatar-256.webp",
+    "src512": "media/web/ForcesHidden-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/ForcesHidden-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/ForcesHidden-banner-750.webp",
+    "src1500": "media/web/ForcesHidden-banner-1500.webp"
+   },
+   "color": "#c8c8c8"
+  },
+  "animatttic": {
+   "avatar": {
+    "original": "media/originals/animatttic-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/animatttic-avatar-256.webp",
+    "src512": "media/web/animatttic-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/animatttic-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/animatttic-banner-750.webp",
+    "src1500": "media/web/animatttic-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "soulinearte": {
+   "avatar": {
+    "original": "media/originals/Soulinearte-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Soulinearte-avatar-256.webp",
+    "src512": "media/web/Soulinearte-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Soulinearte-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Soulinearte-banner-750.webp",
+    "src1500": "media/web/Soulinearte-banner-1500.webp"
+   },
+   "color": "#e8d8d8"
+  },
+  "metabrookhawk": {
+   "avatar": {
+    "original": "media/originals/MetaBrookHawk-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MetaBrookHawk-avatar-256.webp",
+    "src512": "media/web/MetaBrookHawk-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MetaBrookHawk-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MetaBrookHawk-banner-750.webp",
+    "src1500": "media/web/MetaBrookHawk-banner-1500.webp"
+   },
+   "color": "#282828"
+  },
+  "danielladoodles": {
+   "avatar": {
+    "original": "media/originals/DaniellaDoodles-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/DaniellaDoodles-avatar-256.webp",
+    "src512": "media/web/DaniellaDoodles-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/DaniellaDoodles-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/DaniellaDoodles-banner-750.webp",
+    "src1500": "media/web/DaniellaDoodles-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "jerre_art": {
+   "avatar": {
+    "original": "media/originals/jerre_art-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/jerre_art-avatar-256.webp",
+    "src512": "media/web/jerre_art-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/jerre_art-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/jerre_art-banner-750.webp",
+    "src1500": "media/web/jerre_art-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "mattgriffinart": {
+   "avatar": {
+    "original": "media/originals/mattgriffinart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/mattgriffinart-avatar-256.webp",
+    "src512": "media/web/mattgriffinart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/mattgriffinart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/mattgriffinart-banner-750.webp",
+    "src1500": "media/web/mattgriffinart-banner-1500.webp"
+   },
+   "color": "#180808"
+  },
+  "richi0118": {
+   "avatar": {
+    "original": "media/originals/Richi0118-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Richi0118-avatar-256.webp",
+    "src512": "media/web/Richi0118-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Richi0118-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Richi0118-banner-750.webp",
+    "src1500": "media/web/Richi0118-banner-1500.webp"
+   },
+   "color": "#f89828"
+  },
+  "zuphioh": {
+   "avatar": {
+    "original": "media/originals/ZUPHIOH-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/ZUPHIOH-avatar-256.webp",
+    "src512": "media/web/ZUPHIOH-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/ZUPHIOH-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/ZUPHIOH-banner-750.webp",
+    "src1500": "media/web/ZUPHIOH-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "jaendotart": {
+   "avatar": {
+    "original": "media/originals/jaendotart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/jaendotart-avatar-256.webp",
+    "src512": "media/web/jaendotart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/jaendotart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/jaendotart-banner-750.webp",
+    "src1500": "media/web/jaendotart-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "ygriegamx": {
+   "avatar": {
+    "original": "media/originals/YGriegaMX-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/YGriegaMX-avatar-256.webp",
+    "src512": "media/web/YGriegaMX-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/YGriegaMX-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/YGriegaMX-banner-750.webp",
+    "src1500": "media/web/YGriegaMX-banner-1500.webp"
+   },
+   "color": "#f82858"
+  },
+  "i____felix____i": {
+   "avatar": {
+    "original": "media/originals/I____felix____I-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/I____felix____I-avatar-256.webp",
+    "src512": "media/web/I____felix____I-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/I____felix____I-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/I____felix____I-banner-750.webp",
+    "src1500": "media/web/I____felix____I-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "berkanas666": {
+   "avatar": {
+    "original": "media/originals/berkanas666-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/berkanas666-avatar-256.webp",
+    "src512": "media/web/berkanas666-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/berkanas666-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/berkanas666-banner-750.webp",
+    "src1500": "media/web/berkanas666-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "mablabart": {
+   "avatar": {
+    "original": "media/originals/MABLABART-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MABLABART-avatar-256.webp",
+    "src512": "media/web/MABLABART-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MABLABART-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MABLABART-banner-750.webp",
+    "src1500": "media/web/MABLABART-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "lukegerbil": {
+   "avatar": {
+    "original": "media/originals/LukeGerbil-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/LukeGerbil-avatar-256.webp",
+    "src512": "media/web/LukeGerbil-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/LukeGerbil-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/LukeGerbil-banner-750.webp",
+    "src1500": "media/web/LukeGerbil-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "bryanbrinkman": {
+   "avatar": {
+    "original": "media/originals/bryanbrinkman-avatar.jpg",
+    "w": 352,
+    "h": 352,
+    "src256": "media/web/bryanbrinkman-avatar-256.webp",
+    "src512": "media/web/bryanbrinkman-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/bryanbrinkman-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/bryanbrinkman-banner-750.webp",
+    "src1500": "media/web/bryanbrinkman-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "theangietaylor": {
+   "avatar": {
+    "original": "media/originals/theAngieTaylor-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/theAngieTaylor-avatar-256.webp",
+    "src512": "media/web/theAngieTaylor-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/theAngieTaylor-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/theAngieTaylor-banner-750.webp",
+    "src1500": "media/web/theAngieTaylor-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "sashastiles": {
+   "avatar": {
+    "original": "media/originals/sashastiles-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/sashastiles-avatar-256.webp",
+    "src512": "media/web/sashastiles-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/sashastiles-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/sashastiles-banner-750.webp",
+    "src1500": "media/web/sashastiles-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "pascalblanche": {
+   "avatar": {
+    "original": "media/originals/pascalblanche-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/pascalblanche-avatar-256.webp",
+    "src512": "media/web/pascalblanche-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/pascalblanche-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/pascalblanche-banner-750.webp",
+    "src1500": "media/web/pascalblanche-banner-1500.webp"
+   },
+   "color": "#282828"
+  },
+  "reinhard_schmid": {
+   "avatar": {
+    "original": "media/originals/Reinhard_Schmid-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Reinhard_Schmid-avatar-256.webp",
+    "src512": "media/web/Reinhard_Schmid-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Reinhard_Schmid-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Reinhard_Schmid-banner-750.webp",
+    "src1500": "media/web/Reinhard_Schmid-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "coupofgrace": {
+   "avatar": {
+    "original": "media/originals/coupofgrace-avatar.jpg",
+    "w": 73,
+    "h": 73,
+    "src256": "media/web/coupofgrace-avatar-256.webp",
+    "src512": "media/web/coupofgrace-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/coupofgrace-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/coupofgrace-banner-750.webp",
+    "src1500": "media/web/coupofgrace-banner-1500.webp"
+   },
+   "color": "#181818"
+  },
+  "enderdiril": {
+   "avatar": {
+    "original": "media/originals/enderdiril-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/enderdiril-avatar-256.webp",
+    "src512": "media/web/enderdiril-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/enderdiril-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/enderdiril-banner-750.webp",
+    "src1500": "media/web/enderdiril-banner-1500.webp"
+   },
+   "color": "#e8e8e8"
+  },
+  "vanarman": {
+   "avatar": {
+    "original": "media/originals/VanArman-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/VanArman-avatar-256.webp",
+    "src512": "media/web/VanArman-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/VanArman-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/VanArman-banner-750.webp",
+    "src1500": "media/web/VanArman-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "silviovieiraart": {
+   "avatar": {
+    "original": "media/originals/silviovieiraart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/silviovieiraart-avatar-256.webp",
+    "src512": "media/web/silviovieiraart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/silviovieiraart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/silviovieiraart-banner-750.webp",
+    "src1500": "media/web/silviovieiraart-banner-1500.webp"
+   },
+   "color": "#f8f8e8"
+  },
+  "miguelgarest": {
+   "avatar": {
+    "original": "media/originals/miguelgarest-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/miguelgarest-avatar-256.webp",
+    "src512": "media/web/miguelgarest-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/miguelgarest-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/miguelgarest-banner-750.webp",
+    "src1500": "media/web/miguelgarest-banner-1500.webp"
+   },
+   "color": "#f8e8e8"
+  },
+  "0xmj_": {
+   "avatar": {
+    "original": "media/originals/0xmj_-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/0xmj_-avatar-256.webp",
+    "src512": "media/web/0xmj_-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/0xmj_-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/0xmj_-banner-750.webp",
+    "src1500": "media/web/0xmj_-banner-1500.webp"
+   },
+   "color": "#e8e8a8"
+  },
+  "svc_hb": {
+   "avatar": {
+    "original": "media/originals/svc_hb-avatar.jpg",
+    "w": 393,
+    "h": 393,
+    "src256": "media/web/svc_hb-avatar-256.webp",
+    "src512": "media/web/svc_hb-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/svc_hb-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/svc_hb-banner-750.webp",
+    "src1500": "media/web/svc_hb-banner-1500.webp"
+   },
+   "color": "#a8b8b8"
+  },
+  "cryptospectr": {
+   "avatar": {
+    "original": "media/originals/CryptoSpectr-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/CryptoSpectr-avatar-256.webp",
+    "src512": "media/web/CryptoSpectr-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/CryptoSpectr-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/CryptoSpectr-banner-750.webp",
+    "src1500": "media/web/CryptoSpectr-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "mlodotart": {
+   "avatar": {
+    "original": "media/originals/MLOdotArt-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MLOdotArt-avatar-256.webp",
+    "src512": "media/web/MLOdotArt-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MLOdotArt-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MLOdotArt-banner-750.webp",
+    "src1500": "media/web/MLOdotArt-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "kristyglas": {
+   "avatar": {
+    "original": "media/originals/KristyGlas-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/KristyGlas-avatar-256.webp",
+    "src512": "media/web/KristyGlas-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/KristyGlas-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/KristyGlas-banner-750.webp",
+    "src1500": "media/web/KristyGlas-banner-1500.webp"
+   },
+   "color": "#181848"
+  },
+  "motion_styles": {
+   "avatar": {
+    "original": "media/originals/Motion_Styles-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Motion_Styles-avatar-256.webp",
+    "src512": "media/web/Motion_Styles-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Motion_Styles-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Motion_Styles-banner-750.webp",
+    "src1500": "media/web/Motion_Styles-banner-1500.webp"
+   },
+   "color": "#181828"
+  },
+  "orabelart": {
+   "avatar": {
+    "original": "media/originals/orabelart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/orabelart-avatar-256.webp",
+    "src512": "media/web/orabelart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/orabelart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/orabelart-banner-750.webp",
+    "src1500": "media/web/orabelart-banner-1500.webp"
+   },
+   "color": "#181838"
+  },
+  "missalsimpson": {
+   "avatar": {
+    "original": "media/originals/missalsimpson-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/missalsimpson-avatar-256.webp",
+    "src512": "media/web/missalsimpson-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/missalsimpson-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/missalsimpson-banner-750.webp",
+    "src1500": "media/web/missalsimpson-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "_theperfesser": {
+   "avatar": {
+    "original": "media/originals/_theperfesser-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/_theperfesser-avatar-256.webp",
+    "src512": "media/web/_theperfesser-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/_theperfesser-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/_theperfesser-banner-750.webp",
+    "src1500": "media/web/_theperfesser-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "mandelsage": {
+   "avatar": {
+    "original": "media/originals/mandelsage-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/mandelsage-avatar-256.webp",
+    "src512": "media/web/mandelsage-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/mandelsage-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/mandelsage-banner-750.webp",
+    "src1500": "media/web/mandelsage-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "benza333": {
+   "avatar": {
+    "original": "media/originals/Benza333-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Benza333-avatar-256.webp",
+    "src512": "media/web/Benza333-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Benza333-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Benza333-banner-750.webp",
+    "src1500": "media/web/Benza333-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "strayltd": {
+   "avatar": {
+    "original": "media/originals/strayltd-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/strayltd-avatar-256.webp",
+    "src512": "media/web/strayltd-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/strayltd-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/strayltd-banner-750.webp",
+    "src1500": "media/web/strayltd-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "blackboxdotart": {
+   "avatar": {
+    "original": "media/originals/blackboxdotart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/blackboxdotart-avatar-256.webp",
+    "src512": "media/web/blackboxdotart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/blackboxdotart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/blackboxdotart-banner-750.webp",
+    "src1500": "media/web/blackboxdotart-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "gulyildizart": {
+   "avatar": {
+    "original": "media/originals/gulyildizart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/gulyildizart-avatar-256.webp",
+    "src512": "media/web/gulyildizart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/gulyildizart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/gulyildizart-banner-750.webp",
+    "src1500": "media/web/gulyildizart-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "likevespa": {
+   "avatar": {
+    "original": "media/originals/likevespa-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/likevespa-avatar-256.webp",
+    "src512": "media/web/likevespa-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/likevespa-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/likevespa-banner-750.webp",
+    "src1500": "media/web/likevespa-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "luchopoletti": {
+   "avatar": {
+    "original": "media/originals/luchopoletti-avatar.jpg",
+    "w": 292,
+    "h": 292,
+    "src256": "media/web/luchopoletti-avatar-256.webp",
+    "src512": "media/web/luchopoletti-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/luchopoletti-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/luchopoletti-banner-750.webp",
+    "src1500": "media/web/luchopoletti-banner-1500.webp"
+   },
+   "color": "#d8d8d8"
+  },
+  "watchensee": {
+   "avatar": {
+    "original": "media/originals/watchensee-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/watchensee-avatar-256.webp",
+    "src512": "media/web/watchensee-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/watchensee-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/watchensee-banner-750.webp",
+    "src1500": "media/web/watchensee-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "mighty_33": {
+   "avatar": {
+    "original": "media/originals/Mighty_33-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Mighty_33-avatar-256.webp",
+    "src512": "media/web/Mighty_33-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Mighty_33-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Mighty_33-banner-750.webp",
+    "src1500": "media/web/Mighty_33-banner-1500.webp"
+   },
+   "color": "#988888"
+  },
+  "dolcepaganne": {
+   "avatar": {
+    "original": "media/originals/DolcePaganne-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/DolcePaganne-avatar-256.webp",
+    "src512": "media/web/DolcePaganne-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/DolcePaganne-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/DolcePaganne-banner-750.webp",
+    "src1500": "media/web/DolcePaganne-banner-1500.webp"
+   },
+   "color": "#181818"
+  },
+  "tschuuuuly": {
+   "avatar": {
+    "original": "media/originals/Tschuuuuly-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Tschuuuuly-avatar-256.webp",
+    "src512": "media/web/Tschuuuuly-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Tschuuuuly-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Tschuuuuly-banner-750.webp",
+    "src1500": "media/web/Tschuuuuly-banner-1500.webp"
+   },
+   "color": "#e83818"
+  },
+  "abysms11": {
+   "avatar": {
+    "original": "media/originals/abysms11-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/abysms11-avatar-256.webp",
+    "src512": "media/web/abysms11-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/abysms11-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/abysms11-banner-750.webp",
+    "src1500": "media/web/abysms11-banner-1500.webp"
+   },
+   "color": "#28b858"
+  },
+  "thefaketomato": {
+   "avatar": {
+    "original": "media/originals/thefaketomato-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/thefaketomato-avatar-256.webp",
+    "src512": "media/web/thefaketomato-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/thefaketomato-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/thefaketomato-banner-750.webp",
+    "src1500": "media/web/thefaketomato-banner-1500.webp"
+   },
+   "color": "#e8c8b8"
+  },
+  "alejandrahereth": {
+   "avatar": {
+    "original": "media/originals/AlejandraHerEth-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/AlejandraHerEth-avatar-256.webp",
+    "src512": "media/web/AlejandraHerEth-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/AlejandraHerEth-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/AlejandraHerEth-banner-750.webp",
+    "src1500": "media/web/AlejandraHerEth-banner-1500.webp"
+   },
+   "color": "#281828"
+  },
+  "dcryptolorian": {
+   "avatar": {
+    "original": "media/originals/DCryptolorian-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/DCryptolorian-avatar-256.webp",
+    "src512": "media/web/DCryptolorian-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/DCryptolorian-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/DCryptolorian-banner-750.webp",
+    "src1500": "media/web/DCryptolorian-banner-1500.webp"
+   },
+   "color": "#282828"
+  },
+  "mindmaxxing": {
+   "avatar": {
+    "original": "media/originals/Mindmaxxing-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Mindmaxxing-avatar-256.webp",
+    "src512": "media/web/Mindmaxxing-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Mindmaxxing-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Mindmaxxing-banner-750.webp",
+    "src1500": "media/web/Mindmaxxing-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "indieart_eth": {
+   "avatar": {
+    "original": "media/originals/indieart_eth-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/indieart_eth-avatar-256.webp",
+    "src512": "media/web/indieart_eth-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/indieart_eth-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/indieart_eth-banner-750.webp",
+    "src1500": "media/web/indieart_eth-banner-1500.webp"
+   },
+   "color": "#e83818"
+  },
+  "nftland": {
+   "avatar": {
+    "original": "media/originals/NFTland-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/NFTland-avatar-256.webp",
+    "src512": "media/web/NFTland-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/NFTland-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/NFTland-banner-750.webp",
+    "src1500": "media/web/NFTland-banner-1500.webp"
+   },
+   "color": "#4848c8"
+  },
+  "arthemort": {
+   "avatar": {
+    "original": "media/originals/Arthemort-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Arthemort-avatar-256.webp",
+    "src512": "media/web/Arthemort-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Arthemort-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Arthemort-banner-750.webp",
+    "src1500": "media/web/Arthemort-banner-1500.webp"
+   },
+   "color": "#a8b8c8"
+  },
+  "sami_rain_gold": {
+   "avatar": {
+    "original": "media/originals/sami_rain_gold-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/sami_rain_gold-avatar-256.webp",
+    "src512": "media/web/sami_rain_gold-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/sami_rain_gold-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/sami_rain_gold-banner-750.webp",
+    "src1500": "media/web/sami_rain_gold-banner-1500.webp"
+   },
+   "color": "#080818"
+  },
+  "bygrida": {
+   "avatar": {
+    "original": "media/originals/bygrida-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/bygrida-avatar-256.webp",
+    "src512": "media/web/bygrida-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/bygrida-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/bygrida-banner-750.webp",
+    "src1500": "media/web/bygrida-banner-1500.webp"
+   },
+   "color": "#181838"
+  },
+  "4th_perspective": {
+   "avatar": {
+    "original": "media/originals/4th_Perspective-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/4th_Perspective-avatar-256.webp",
+    "src512": "media/web/4th_Perspective-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/4th_Perspective-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/4th_Perspective-banner-750.webp",
+    "src1500": "media/web/4th_Perspective-banner-1500.webp"
+   },
+   "color": "#a8a8a8"
+  },
+  "winchawa": {
+   "avatar": {
+    "original": "media/originals/winchawa-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/winchawa-avatar-256.webp",
+    "src512": "media/web/winchawa-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/winchawa-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/winchawa-banner-750.webp",
+    "src1500": "media/web/winchawa-banner-1500.webp"
+   },
+   "color": "#080818"
+  },
+  "cyber_yuyu": {
+   "avatar": {
+    "original": "media/originals/cyber_yuyu-avatar.jpg",
+    "w": 325,
+    "h": 325,
+    "src256": "media/web/cyber_yuyu-avatar-256.webp",
+    "src512": "media/web/cyber_yuyu-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/cyber_yuyu-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/cyber_yuyu-banner-750.webp",
+    "src1500": "media/web/cyber_yuyu-banner-1500.webp"
+   },
+   "color": "#d8f8f8"
+  },
+  "arlosinclair00": {
+   "avatar": {
+    "original": "media/originals/Arlosinclair00-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Arlosinclair00-avatar-256.webp",
+    "src512": "media/web/Arlosinclair00-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Arlosinclair00-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Arlosinclair00-banner-750.webp",
+    "src1500": "media/web/Arlosinclair00-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "ferdebuenart": {
+   "avatar": {
+    "original": "media/originals/FerdebuenArt-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/FerdebuenArt-avatar-256.webp",
+    "src512": "media/web/FerdebuenArt-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/FerdebuenArt-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/FerdebuenArt-banner-750.webp",
+    "src1500": "media/web/FerdebuenArt-banner-1500.webp"
+   },
+   "color": "#380808"
+  },
+  "lady_kristinav3": {
+   "avatar": {
+    "original": "media/originals/lady_KristinaV3-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/lady_KristinaV3-avatar-256.webp",
+    "src512": "media/web/lady_KristinaV3-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/lady_KristinaV3-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/lady_KristinaV3-banner-750.webp",
+    "src1500": "media/web/lady_KristinaV3-banner-1500.webp"
+   },
+   "color": "#180808"
+  },
+  "bregobbx": {
+   "avatar": {
+    "original": "media/originals/Bregobbx-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Bregobbx-avatar-256.webp",
+    "src512": "media/web/Bregobbx-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Bregobbx-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Bregobbx-banner-750.webp",
+    "src1500": "media/web/Bregobbx-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "pepadot": {
+   "avatar": {
+    "original": "media/originals/PepaDot-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/PepaDot-avatar-256.webp",
+    "src512": "media/web/PepaDot-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/PepaDot-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/PepaDot-banner-750.webp",
+    "src1500": "media/web/PepaDot-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "glitchcandies": {
+   "avatar": {
+    "original": "media/originals/glitchcandies-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/glitchcandies-avatar-256.webp",
+    "src512": "media/web/glitchcandies-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/glitchcandies-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/glitchcandies-banner-750.webp",
+    "src1500": "media/web/glitchcandies-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "vectorvisionist": {
+   "avatar": {
+    "original": "media/originals/VectorVisionist-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/VectorVisionist-avatar-256.webp",
+    "src512": "media/web/VectorVisionist-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/VectorVisionist-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/VectorVisionist-banner-750.webp",
+    "src1500": "media/web/VectorVisionist-banner-1500.webp"
+   },
+   "color": "#0808f8"
+  },
+  "triz_draw": {
+   "avatar": {
+    "original": "media/originals/Triz_Draw-avatar.jpg",
+    "w": 372,
+    "h": 372,
+    "src256": "media/web/Triz_Draw-avatar-256.webp",
+    "src512": "media/web/Triz_Draw-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Triz_Draw-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Triz_Draw-banner-750.webp",
+    "src1500": "media/web/Triz_Draw-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "nikolinapetolas": {
+   "avatar": {
+    "original": "media/originals/NikolinaPetolas-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/NikolinaPetolas-avatar-256.webp",
+    "src512": "media/web/NikolinaPetolas-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/NikolinaPetolas-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/NikolinaPetolas-banner-750.webp",
+    "src1500": "media/web/NikolinaPetolas-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "daimalyad": {
+   "avatar": {
+    "original": "media/originals/DaimAlYad-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/DaimAlYad-avatar-256.webp",
+    "src512": "media/web/DaimAlYad-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/DaimAlYad-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/DaimAlYad-banner-750.webp",
+    "src1500": "media/web/DaimAlYad-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "pointshark1": {
+   "avatar": {
+    "original": "media/originals/Pointshark1-avatar.jpg",
+    "w": 319,
+    "h": 319,
+    "src256": "media/web/Pointshark1-avatar-256.webp",
+    "src512": "media/web/Pointshark1-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Pointshark1-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Pointshark1-banner-750.webp",
+    "src1500": "media/web/Pointshark1-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "kazumaono_": {
+   "avatar": {
+    "original": "media/originals/kazumaono_-avatar.jpg",
+    "w": 399,
+    "h": 400,
+    "src256": "media/web/kazumaono_-avatar-256.webp",
+    "src512": "media/web/kazumaono_-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/kazumaono_-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/kazumaono_-banner-750.webp",
+    "src1500": "media/web/kazumaono_-banner-1500.webp"
+   },
+   "color": "#d8c8a8"
+  },
+  "horus_art": {
+   "avatar": {
+    "original": "media/originals/horus_art-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/horus_art-avatar-256.webp",
+    "src512": "media/web/horus_art-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/horus_art-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/horus_art-banner-750.webp",
+    "src1500": "media/web/horus_art-banner-1500.webp"
+   },
+   "color": "#f8f8e8"
+  },
+  "sepidehsahebdel": {
+   "avatar": {
+    "original": "media/originals/sepidehsahebdel-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/sepidehsahebdel-avatar-256.webp",
+    "src512": "media/web/sepidehsahebdel-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/sepidehsahebdel-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/sepidehsahebdel-banner-750.webp",
+    "src1500": "media/web/sepidehsahebdel-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "ogiworlds": {
+   "avatar": {
+    "original": "media/originals/OgiWorlds-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/OgiWorlds-avatar-256.webp",
+    "src512": "media/web/OgiWorlds-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/OgiWorlds-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/OgiWorlds-banner-750.webp",
+    "src1500": "media/web/OgiWorlds-banner-1500.webp"
+   },
+   "color": "#d88848"
+  },
+  "adamtoksoz": {
+   "avatar": {
+    "original": "media/originals/AdamToksoz-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/AdamToksoz-avatar-256.webp",
+    "src512": "media/web/AdamToksoz-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/AdamToksoz-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/AdamToksoz-banner-750.webp",
+    "src1500": "media/web/AdamToksoz-banner-1500.webp"
+   },
+   "color": "#686878"
+  },
+  "hyschpepe": {
+   "avatar": {
+    "original": "media/originals/hyschpepe-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/hyschpepe-avatar-256.webp",
+    "src512": "media/web/hyschpepe-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/hyschpepe-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/hyschpepe-banner-750.webp",
+    "src1500": "media/web/hyschpepe-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "busrasuhaydar": {
+   "avatar": {
+    "original": "media/originals/busrasuhaydar-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/busrasuhaydar-avatar-256.webp",
+    "src512": "media/web/busrasuhaydar-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/busrasuhaydar-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/busrasuhaydar-banner-750.webp",
+    "src1500": "media/web/busrasuhaydar-banner-1500.webp"
+   },
+   "color": "#f85808"
+  },
+  "p1abypia": {
+   "avatar": {
+    "original": "media/originals/p1abypia-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/p1abypia-avatar-256.webp",
+    "src512": "media/web/p1abypia-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/p1abypia-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/p1abypia-banner-750.webp",
+    "src1500": "media/web/p1abypia-banner-1500.webp"
+   },
+   "color": "#d8d8d8"
+  },
+  "johnkarp": {
+   "avatar": {
+    "original": "media/originals/johnkarp-avatar.jpg",
+    "w": 160,
+    "h": 160,
+    "src256": "media/web/johnkarp-avatar-256.webp",
+    "src512": "media/web/johnkarp-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/johnkarp-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/johnkarp-banner-750.webp",
+    "src1500": "media/web/johnkarp-banner-1500.webp"
+   },
+   "color": "#688898"
+  },
+  "coldie": {
+   "avatar": {
+    "original": "media/originals/Coldie-avatar.jpg",
+    "w": 335,
+    "h": 335,
+    "src256": "media/web/Coldie-avatar-256.webp",
+    "src512": "media/web/Coldie-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Coldie-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Coldie-banner-750.webp",
+    "src1500": "media/web/Coldie-banner-1500.webp"
+   },
+   "color": "#688898"
+  },
+  "thesarahshow": {
+   "avatar": {
+    "original": "media/originals/thesarahshow-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/thesarahshow-avatar-256.webp",
+    "src512": "media/web/thesarahshow-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/thesarahshow-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/thesarahshow-banner-750.webp",
+    "src1500": "media/web/thesarahshow-banner-1500.webp"
+   },
+   "color": "#f8b808"
+  },
+  "co1born": {
+   "avatar": {
+    "original": "media/originals/co1born-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/co1born-avatar-256.webp",
+    "src512": "media/web/co1born-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/co1born-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/co1born-banner-750.webp",
+    "src1500": "media/web/co1born-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "mattkaneartist": {
+   "avatar": {
+    "original": "media/originals/MattKaneArtist-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/MattKaneArtist-avatar-256.webp",
+    "src512": "media/web/MattKaneArtist-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/MattKaneArtist-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/MattKaneArtist-banner-750.webp",
+    "src1500": "media/web/MattKaneArtist-banner-1500.webp"
+   },
+   "color": "#c8a898"
+  },
+  "andrea_chiampo": {
+   "avatar": {
+    "original": "media/originals/Andrea_Chiampo-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/Andrea_Chiampo-avatar-256.webp",
+    "src512": "media/web/Andrea_Chiampo-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Andrea_Chiampo-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Andrea_Chiampo-banner-750.webp",
+    "src1500": "media/web/Andrea_Chiampo-banner-1500.webp"
+   },
+   "color": "#c8c8b8"
+  },
+  "luluixixix": {
+   "avatar": {
+    "original": "media/originals/luluixixix-avatar.jpg",
+    "w": 377,
+    "h": 377,
+    "src256": "media/web/luluixixix-avatar-256.webp",
+    "src512": "media/web/luluixixix-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/luluixixix-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/luluixixix-banner-750.webp",
+    "src1500": "media/web/luluixixix-banner-1500.webp"
+   },
+   "color": "#e8b898"
+  },
+  "0xroses0x": {
+   "avatar": {
+    "original": "media/originals/0xRoses0x-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/0xRoses0x-avatar-256.webp",
+    "src512": "media/web/0xRoses0x-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/0xRoses0x-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/0xRoses0x-banner-750.webp",
+    "src1500": "media/web/0xRoses0x-banner-1500.webp"
+   },
+   "color": "#688898"
+  },
+  "clairesilver": {
+   "avatar": {
+    "original": "media/originals/ClaireSilver-avatar.png",
+    "w": 336,
+    "h": 336,
+    "src256": "media/web/ClaireSilver-avatar-256.webp",
+    "src512": "media/web/ClaireSilver-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/ClaireSilver-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/ClaireSilver-banner-750.webp",
+    "src1500": "media/web/ClaireSilver-banner-1500.webp"
+   },
+   "color": "#688898"
+  }
+ }
+}
