@@ -1,0 +1,43 @@
+name: Link check
+
+on:
+  schedule:
+    - cron: "0 16 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Check links in people.json
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8
+        with:
+          fail: true
+          output: lychee/out.md
+          args: --config lychee.toml --no-progress --format markdown data/people.json
+      - name: Find the open link-check issue
+        id: existing
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          num=$(gh issue list --state open --search 'in:title "Link check: broken artist links"' --json number --jq '.[0].number // ""')
+          echo "number=$num" >> "$GITHUB_OUTPUT"
+      - name: Update the link-check issue
+        if: failure() && steps.existing.outputs.number != ''
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710
+        with:
+          title: Link check: broken artist links
+          content-filepath: lychee/out.md
+          issue-number: ${{ steps.existing.outputs.number }}
+      - name: Open the link-check issue
+        if: failure() && steps.existing.outputs.number == ''
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710
+        with:
+          title: Link check: broken artist links
+          content-filepath: lychee/out.md

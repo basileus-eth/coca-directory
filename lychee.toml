@@ -1,0 +1,7 @@
+accept = ["100..=103", "200..=299", "403", "429"]
+exclude = [
+  '^https?://([a-z0-9-]+\.)*(x\.com|twitter\.com)(/|$)',
+]
+exclude_mail = true
+max_redirects = 5
+timeout = 20

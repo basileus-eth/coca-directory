@@ -1,172 +1,28 @@
 <!doctype html>
 <html lang="en">
 <head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>CoCA Artist Directory</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Instrument+Sans:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<style>
-:root {
-  color-scheme: light;
-  box-sizing: border-box;
-  padding-top: env(safe-area-inset-top, 0px);
-  padding-bottom: env(safe-area-inset-bottom, 0px);
-  --bg: #f1f2f4;
-  --surface: #ffffff;
-  --ink: #17171c;
-  --muted: #5d5f6b;
-  --rule: #d9dbe1;
-  --accent: #c81f45;
-  --accent-soft: #f8dde4;
-  --chip-b: #7a1218;
-  --chip-o: #2f3b52;
-  --chip-n: #1d5c55;
-  --chip-g: #7a5a12;
-  --neutral: #2c2e37;
-  --font-display: "Syne", "Arial Black", system-ui, sans-serif;
-  --font-body: "Instrument Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
-  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
-}
-html { scroll-padding-top: env(safe-area-inset-top, 0px); }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #111216; --surface: #191a20; --ink: #ebeaee; --muted: #9a9caa; --rule: #2c2e37;
-    --accent: #ff4d73; --accent-soft: #3a1622; --chip-b: #ff8fa6; --chip-o: #a9b6d3; --chip-n: #7fd1b9; --chip-g: #e3c06b;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #111216; --surface: #191a20; --ink: #ebeaee; --muted: #9a9caa; --rule: #2c2e37;
-  --accent: #ff4d73; --accent-soft: #3a1622; --chip-b: #ff8fa6; --chip-o: #a9b6d3; --chip-n: #7fd1b9; --chip-g: #e3c06b;
-  color-scheme: dark;
-}
-* { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.55; padding-inline: 16px; }
-img { max-width: 100%; }
-[hidden]:not([hidden=until-found i]) { display: none !important; }
-a { color: inherit; }
-a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.wrap { max-width: 1080px; margin: 0 auto; }
-
-.banner { margin: 16px 0 0; aspect-ratio: 3 / 1; max-width: 100%; border-radius: 8px; overflow: hidden; background: linear-gradient(120deg, #101614, #1d2b27 60%, #3a1520); }
-.banner img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.mast { padding-block: 0 28px; display: grid; gap: 14px; }
-.logo { width: clamp(84px, 14vw, 128px); aspect-ratio: 1; max-width: 100%; margin-top: clamp(-64px, -7vw, -42px); margin-left: 20px; border-radius: 50%; overflow: hidden; background: #000; border: 4px solid var(--bg); position: relative; }
-.logo img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.logo.fallback::after { content: ""; position: absolute; left: 50%; top: 52%; transform: translate(-50%, -50%); border-left: 22px solid transparent; border-right: 22px solid transparent; border-bottom: 38px solid #e2264d; }
-.mast h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.2rem, 6vw, 4.2rem); line-height: 0.95; letter-spacing: -0.02em; margin: 0; text-wrap: balance; }
-.mast p { margin: 0; color: var(--muted); max-width: 60ch; }
-.stats { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.stats b { color: var(--ink); font-weight: 500; }
-
-.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--rule); padding-block: 12px; display: grid; gap: 10px; }
-.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-.search { flex: 1 1 240px; min-width: 0; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 9px 12px; }
-.chats { display: flex; flex-wrap: wrap; gap: 6px; }
-.toggle { font: 500 12.5px/1 var(--font-body); color: var(--muted); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
-.toggle[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); }
-.toggle .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: 0; }
-.switch { display: flex; border: 1px solid var(--rule); border-radius: 999px; overflow: hidden; }
-.switch button { font: 500 12.5px/1 var(--font-body); color: var(--muted); background: transparent; border: 0; padding: 8px 12px; cursor: pointer; }
-.switch button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
-.rail { display: flex; flex-wrap: wrap; gap: 2px; font-family: var(--font-mono); font-size: 12px; }
-.rail a, .rail span { display: inline-block; min-width: 22px; text-align: center; padding: 3px 2px; text-decoration: none; border-radius: 3px; }
-.rail a:hover { background: var(--accent-soft); color: var(--accent); }
-.rail span { color: var(--rule); }
-.count { font-family: var(--font-mono); font-size: 12px; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; }
-
-.loading { color: var(--muted); padding-block: 28px; }
-.letter { display: grid; grid-template-columns: 64px 1fr; gap: 0 20px; border-top: 2px solid var(--ink); padding-block: 18px 6px; scroll-margin-top: 180px; }
-.letter > h2 { font-family: var(--font-display); font-weight: 800; font-size: 2.6rem; line-height: 1; margin: 0; color: var(--accent); }
-.entries { display: grid; grid-template-columns: 1fr; gap: 14px; min-width: 0; align-content: start; }
-.card { min-width: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; scroll-margin-top: 200px; }
-.card-banner { position: relative; aspect-ratio: 3 / 1; background: var(--tone, var(--neutral)); }
-.zoom { position: absolute; inset: 0; display: block; width: 100%; height: 100%; padding: 0; border: 0; background: transparent; cursor: zoom-in; }
-.card-banner img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.card-body { padding: 0 16px 16px; display: grid; gap: 10px; min-width: 0; }
-.avatar, .avatar-btn {
-  width: 88px; height: 88px; margin: -48px 0 0 16px; border-radius: 50%; border: 4px solid var(--bg);
-  background: var(--tone, var(--neutral)); overflow: hidden; position: relative; z-index: 1;
-}
-.avatar-btn { display: block; padding: 0; cursor: zoom-in; }
-.avatar { display: grid; place-items: center; color: #fff; font-family: var(--font-display); font-weight: 800; font-size: 32px; }
-.avatar-btn img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.who { min-width: 0; display: grid; gap: 4px; align-content: start; }
-.name { font-family: var(--font-display); font-weight: 600; font-size: 1.12rem; line-height: 1.2; overflow-wrap: anywhere; }
-.handle { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); text-decoration: none; overflow-wrap: anywhere; }
-.handle:hover { color: var(--accent); }
-.loc { font-size: 12.5px; color: var(--muted); }
-.tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
-.tag { font: 500 10.5px/1 var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 6px; border-radius: 3px; border: 1px solid currentColor; }
-.tag.B { color: var(--chip-b); } .tag.O { color: var(--chip-o); } .tag.N { color: var(--chip-n); } .tag.G { color: var(--chip-g); }
-.bio { margin: 0; white-space: pre-line; overflow-wrap: anywhere; max-width: 68ch; }
-.bio.empty { color: var(--muted); font-style: italic; }
-.bio a { color: var(--accent); text-decoration: none; }
-.bio a:hover { text-decoration: underline; }
-dl { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 12px; font-size: 13px; }
-dt { font: 500 11px/1.9 var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
-dd { margin: 0; min-width: 0; font-family: var(--font-mono); font-size: 12.5px; line-height: 1.9; overflow-wrap: anywhere; }
-dd a { text-decoration: none; border-bottom: 1px solid var(--rule); }
-dd a:hover { color: var(--accent); border-color: var(--accent); }
-dd ul { list-style: none; margin: 0; padding: 0; }
-
-.wall { display: grid; grid-template-columns: 1fr; gap: 8px; padding-block: 16px 8px; }
-.tile {
-  display: block; width: 100%; min-width: 0; padding: 0; border: 0; border-radius: 8px; overflow: hidden;
-  position: relative; aspect-ratio: 3 / 1; cursor: pointer; text-align: left; color: #fff;
-  background: var(--tone, var(--neutral));
-}
-.tile img.tile-banner { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; }
-.tile-cap {
-  position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; display: flex; align-items: flex-end; gap: 8px;
-  padding: 28px 10px 8px; background: linear-gradient(transparent, rgba(0, 0, 0, 0.72)); min-width: 0;
-}
-.tile-avatar, .tile-initial {
-  width: 32px; height: 32px; flex: 0 0 auto; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.85);
-  object-fit: cover; background: var(--tone, var(--neutral));
-}
-.tile-initial { display: grid; place-items: center; color: #fff; font-family: var(--font-display); font-weight: 800; font-size: 14px; }
-.tile-name { font-family: var(--font-display); font-weight: 600; font-size: 14px; line-height: 1.2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
-
-.none { padding-block: 40px; color: var(--muted); }
-footer { padding-block: 32px 48px; color: var(--muted); font-size: 12.5px; }
-footer p { margin: 0 0 8px; max-width: 68ch; }
-footer a { color: var(--accent); text-decoration: none; }
-footer a:hover { text-decoration: underline; }
-
-#viewer {
-  border: 0; padding: 16px; width: min(1100px, calc(100vw - 24px)); max-width: calc(100vw - 24px);
-  background: var(--surface); color: var(--ink); border-radius: 10px;
-}
-#viewer::backdrop { background: rgba(0, 0, 0, 0.72); }
-#viewer img { display: block; max-width: 100%; max-height: min(78vh, 900px); width: auto; height: auto; margin: 0 auto; object-fit: contain; background: #000; }
-.viewer-fallback { min-height: 180px; display: grid; place-items: center; color: #fff; font-family: var(--font-display); font-weight: 800; font-size: 48px; border-radius: 8px; }
-#viewer p { margin: 12px 0 4px; }
-#viewer a { color: var(--accent); }
-.viewer-close { margin-top: 12px; font: 500 12.5px/1 var(--font-body); color: var(--ink); background: transparent; border: 1px solid var(--rule); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
-
-@media (min-width: 560px) { .wall { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 900px) { .entries { grid-template-columns: 1fr 1fr; } .wall { grid-template-columns: 1fr 1fr 1fr; } }
-@media (max-width: 720px) {
-  .letter { grid-template-columns: 1fr; }
-  .letter > h2 { font-size: 2rem; margin-bottom: 4px; }
-  .count { margin-left: 0; }
-  .card { scroll-margin-top: 280px; }
-}
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="wrap">
   <figure class="banner">
-    <img src="banner.jpg" alt="Cult of Crypto Art banner artwork" width="1500" height="500" onerror="this.remove()">
+    <img id="site-banner" src="banner.jpg" alt="Cult of Crypto Art banner artwork" width="1500" height="500">
   </figure>
   <header class="mast">
-    <div class="logo"><img src="logo.jpg" alt="Cult of Crypto Art logo" width="400" height="400" onerror="this.parentNode.classList.add('fallback');this.remove()"></div>
+    <div class="logo"><img id="site-logo" src="logo.jpg" alt="Cult of Crypto Art logo" width="400" height="400"></div>
     <h1>CoCA Artist Directory</h1>
     <p>Members of four Cult of Crypto Art group chats on X, listed A to Z with their profile text and links.</p>
+    <p class="notice">This directory never asks you to connect a wallet, sign anything, or log in. If a copy of this page does, it's fake.</p>
+    <p class="notice" id="asof"></p>
+    <p class="maintainer">
+      <img id="header-coin" src="assets/basileus-coin.jpg" alt="" width="382" height="382">
+      <span>Maintained by <a href="https://x.com/basileus_eth" target="_blank" rel="noopener noreferrer">@basileus_eth</a></span>
+    </p>
     <div class="stats" id="stats"></div>
   </header>
 
@@ -187,346 +43,38 @@ footer a:hover { text-decoration: underline; }
   <main id="list" hidden></main>
   <div class="wall" id="wall" hidden></div>
   <p class="none" id="none" hidden>No one matches that search. Clear the search box or turn a chat filter back on.</p>
-  <footer id="foot"></footer>
+  <footer id="foot">
+    <p>Collected from public X profiles on <time id="collected-date"></time>. People in more than one chat appear once. Profile text is shown as each person wrote it.</p>
+    <p>Avatar and banner art belongs to each artist and links to their profile. To update or remove your entry, message @basileus_eth.</p>
+    <p>This directory never asks you to connect a wallet, sign anything, or log in. If a copy of this page does, it's fake.</p>
+    <p class="maintainer">
+      <img id="footer-coin" src="assets/basileus-coin.jpg" alt="" width="382" height="382">
+      <span>Maintained by <a href="https://x.com/basileus_eth" target="_blank" rel="noopener noreferrer">@basileus_eth</a></span>
+    </p>
+    <!-- TODO: add the pinned X post URL beside the @basileus_eth credit when it exists. -->
+    <p class="foot-links">
+      <a href="https://app.ens.domains/basileus.eth" target="_blank" rel="noopener noreferrer">basileus.eth</a>
+      <a href="https://github.com/basileus-eth/coca-directory" target="_blank" rel="noopener noreferrer">Source</a>
+      <a href="NOTICE.md">Notices</a>
+    </p>
+    <section class="check">
+      <h2>How to check this is the real page</h2>
+      <ul>
+        <li>The address is basileus-eth.github.io/coca-directory.</li>
+        <li>It is linked from the @basileus_eth X profile.</li>
+        <li>The website record on basileus.eth points here.</li>
+      </ul>
+    </section>
+  </footer>
 </div>
 
 <dialog id="viewer">
   <img id="viewer-img" alt="">
   <div class="viewer-fallback" id="viewer-fallback" hidden></div>
   <p id="viewer-cap"></p>
-  <a id="viewer-link" target="_blank" rel="noopener"></a>
+  <a id="viewer-link" target="_blank" rel="noopener noreferrer"></a>
   <div><button type="button" class="viewer-close" id="viewer-close">Close</button></div>
 </dialog>
-
-<script>
-const SHORT = { B: "Blood Guard", O: "Old World", N: "New World", G: "Great Spirits" };
-const COLOR = { B: "var(--chip-b)", O: "var(--chip-o)", N: "var(--chip-n)", G: "var(--chip-g)" };
-const VIEW_KEY = "coca-directory-view";
-
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const pretty = u => u.replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/$/, "");
-const hex = c => /^#[0-9a-fA-F]{6}$/.test(c || "") ? c : "#2c2e37";
-const motion = () => matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
-
-function linkify(text) {
-  const re = /(https?:\/\/[^\s<>"]+)|(^|[^\w])@(\w{1,15})/g;
-  let out = "", last = 0, m;
-  while ((m = re.exec(text))) {
-    out += esc(text.slice(last, m.index));
-    if (m[1]) {
-      const url = m[1].replace(/[.,;:)…]+$/, "");
-      out += `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(pretty(url))}</a>` + esc(m[1].slice(url.length));
-    } else {
-      out += esc(m[2]) + `<a href="https://x.com/${m[3]}" target="_blank" rel="noopener">@${esc(m[3])}</a>`;
-    }
-    last = re.lastIndex;
-  }
-  return out + esc(text.slice(last));
-}
-
-let people = [];
-let media = {};
-let chatFull = {};
-let active = new Set();
-let view = "directory";
-let viewer = { handle: null, kind: "banner" };
-
-function loadView() {
-  try { return localStorage.getItem(VIEW_KEY) === "wall" ? "wall" : "directory"; }
-  catch { return "directory"; }
-}
-function saveView(name) {
-  try { localStorage.setItem(VIEW_KEY, name); } catch {}
-}
-
-function prepare(raw) {
-  const chats = Array.isArray(raw.chats) ? raw.chats : String(raw.chats || "").split("");
-  const name = raw.name || raw.handle;
-  const plain = name.normalize("NFKC").toLowerCase();
-  const stripped = plain.replace(/^[^\p{L}\p{N}]+/u, "");
-  const key = stripped || raw.handle.toLowerCase();
-  const first = key.charAt(0);
-  const letter = /[a-z]/.test(first) ? first.toUpperCase() : "#";
-  const bio = raw.bio || "";
-  const bioLinks = raw.bioLinks || [];
-  const website = raw.website || "";
-  const location = (raw.location || "").trim();
-  return {
-    handle: raw.handle, name, bio, bioLinks, website, location, chats, key, letter,
-    hay: [raw.handle, name, bio, website, location, ...bioLinks].join(" ").toLowerCase()
-  };
-}
-
-function initial(p) {
-  if (p.letter !== "#") return p.letter;
-  const ch = (p.name || p.handle).trim().charAt(0);
-  return ch || "#";
-}
-
-function personMedia(p) {
-  return media[p.handle.toLowerCase()] || {};
-}
-
-function tagsHTML(p) {
-  return p.chats.map(c => {
-    const full = chatFull[c] || SHORT[c] || c;
-    const name = SHORT[c] || full;
-    const color = COLOR[c] || "var(--muted)";
-    return `<span class="tag ${esc(c)}" title="${esc(full)}">${esc(name)}</span>`;
-  }).join("");
-}
-
-function textHTML(p) {
-  const site = p.website ? `<a href="${esc(p.website)}" target="_blank" rel="noopener">${esc(pretty(p.website))}</a>` : "";
-  const links = p.bioLinks.length
-    ? `<dt>Links</dt><dd><ul>${p.bioLinks.map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(pretty(u))}</a></li>`).join("")}</ul></dd>` : "";
-  const bio = p.bio.trim() ? `<p class="bio">${linkify(p.bio.trim())}</p>` : `<p class="bio empty">No profile text.</p>`;
-  return `${bio}<dl><dt>Website</dt><dd>${site}</dd>${links}</dl>`;
-}
-
-function bannerHTML(p) {
-  const m = personMedia(p);
-  const tone = hex(m.color);
-  const b = m.banner;
-  if (!b) return `<div class="card-banner" style="--tone:${tone}"></div>`;
-  return `<div class="card-banner" style="--tone:${tone}">
-    <button type="button" class="zoom" data-kind="banner" data-handle="${esc(p.handle)}" aria-label="Banner art by ${esc(p.name)}">
-      <img src="${esc(b.src1500)}" srcset="${esc(b.src750)} 750w, ${esc(b.src1500)} 1500w" sizes="(min-width: 900px) 50vw, 100vw" width="1500" height="500" alt="Banner art by ${esc(p.name)}" loading="lazy" decoding="async">
-    </button>
-  </div>`;
-}
-
-function avatarHTML(p) {
-  const m = personMedia(p);
-  const tone = hex(m.color);
-  const a = m.avatar;
-  if (!a) return `<div class="avatar" style="--tone:${tone}" aria-hidden="true">${esc(initial(p))}</div>`;
-  return `<button type="button" class="avatar-btn" style="--tone:${tone}" data-kind="avatar" data-handle="${esc(p.handle)}" aria-label="Avatar of ${esc(p.name)}">
-    <img src="${esc(a.src512)}" srcset="${esc(a.src256)} 256w, ${esc(a.src512)} 512w" sizes="88px" width="512" height="512" alt="Avatar of ${esc(p.name)}" loading="lazy" decoding="async">
-  </button>`;
-}
-
-function cardHTML(p) {
-  return `<article class="card" id="p-${esc(p.handle)}" data-chats="${esc(p.chats.join(""))}" data-hay="${esc(p.hay)}">
-    ${bannerHTML(p)}
-    <div class="card-body">
-      ${avatarHTML(p)}
-      <div class="who">
-        <div class="name">${esc(p.name)}</div>
-        <a class="handle" href="https://x.com/${esc(p.handle)}" target="_blank" rel="noopener">@${esc(p.handle)}</a>
-        ${p.location ? `<div class="loc">${esc(p.location)}</div>` : ""}
-        <div class="tags">${tagsHTML(p)}</div>
-      </div>
-      ${textHTML(p)}
-    </div>
-  </article>`;
-}
-
-function tileHTML(p) {
-  const m = personMedia(p);
-  const tone = hex(m.color);
-  const banner = m.banner
-    ? `<img class="tile-banner" src="${esc(m.banner.src1500)}" srcset="${esc(m.banner.src750)} 750w, ${esc(m.banner.src1500)} 1500w" sizes="(min-width: 900px) 33vw, 100vw" width="1500" height="500" alt="" loading="lazy" decoding="async">`
-    : "";
-  const face = m.avatar
-    ? `<img class="tile-avatar" src="${esc(m.avatar.src256)}" srcset="${esc(m.avatar.src256)} 256w, ${esc(m.avatar.src512)} 512w" sizes="32px" width="256" height="256" alt="" loading="lazy" decoding="async">`
-    : `<span class="tile-initial" style="--tone:${tone}">${esc(initial(p))}</span>`;
-  return `<button type="button" class="tile" id="w-${esc(p.handle)}" style="--tone:${tone}" data-goto="${esc(p.handle)}" data-chats="${esc(p.chats.join(""))}" data-hay="${esc(p.hay)}">
-    ${banner}${face ? "" : ""}
-    <span class="tile-cap">${face}<span class="tile-name">${esc(p.name)}</span></span>
-  </button>`;
-}
-
-function render(directory) {
-  chatFull = directory.chats || {};
-  people = (directory.people || []).map(prepare).sort((a, b) => (a.letter === "#") - (b.letter === "#") || a.key.localeCompare(b.key, "en", { sensitivity: "base" }));
-  active = new Set(Object.keys(chatFull));
-  const groups = {};
-  people.forEach(p => (groups[p.letter] = groups[p.letter] || []).push(p));
-  const letters = Object.keys(groups).sort((a, b) => (a === "#") - (b === "#") || a.localeCompare(b));
-  document.getElementById("list").innerHTML = letters.map(L =>
-    `<section class="letter" id="L-${L === "#" ? "other" : L}" data-letter="${L}"><h2>${L}</h2><div class="entries">${groups[L].map(cardHTML).join("")}</div></section>`
-  ).join("");
-  document.getElementById("wall").innerHTML = people.map(tileHTML).join("");
-  document.getElementById("chats").innerHTML = Object.keys(chatFull).map(k => {
-    const full = chatFull[k] || SHORT[k] || k;
-    const name = SHORT[k] || full;
-    const color = COLOR[k] || "var(--muted)";
-    return `<button class="toggle" type="button" data-k="${esc(k)}" aria-pressed="true" title="${esc(full)}"><span class="dot" style="background:${color}"></span>${esc(name)}</button>`;
-  }).join("");
-  const per = k => people.filter(p => p.chats.includes(k)).length;
-  document.getElementById("stats").innerHTML =
-    `<span><b>${people.length}</b> people</span>` +
-    Object.keys(chatFull).map(k => `<span>${esc(SHORT[k] || chatFull[k] || k)} <b>${per(k)}</b></span>`).join("") +
-    `<span>With website <b>${people.filter(p => p.website).length}</b></span>`;
-  const collected = formatCollected(directory.collected);
-  const foot = document.getElementById("foot");
-  foot.replaceChildren();
-  const lead = document.createElement("p");
-  lead.textContent = `Collected from public X profiles on ${collected}. People in more than one chat appear once. Profile text is shown as each person wrote it.`;
-  const credit = document.createElement("p");
-  credit.append("Avatar and banner art belongs to each artist and links to their profile. To update or remove your entry, message ");
-  const who = document.createElement("a");
-  who.href = "https://x.com/basileus_eth";
-  who.target = "_blank";
-  who.rel = "noopener";
-  who.textContent = "@basileus_eth";
-  credit.append(who, ".");
-  foot.append(lead, credit);
-}
-
-function formatCollected(value) {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value || "");
-  if (!m) return value || "";
-  return new Date(Date.UTC(+m[1], +m[2] - 1, +m[3])).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
-}
-
-const allLetters = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ", "#"];
-function drawRail() {
-  const rail = document.getElementById("rail");
-  rail.innerHTML = allLetters.map(L => {
-    const sec = document.getElementById("L-" + (L === "#" ? "other" : L));
-    return sec && !sec.hidden ? `<a href="#L-${L === "#" ? "other" : L}">${L}</a>` : `<span>${L}</span>`;
-  }).join("");
-}
-
-function apply() {
-  const terms = document.getElementById("q").value.toLowerCase().trim().split(/\s+/).filter(Boolean);
-  let shown = 0;
-  for (const p of people) {
-    const ok = p.chats.some(c => active.has(c)) && terms.every(t => p.hay.includes(t));
-    const card = document.getElementById("p-" + p.handle);
-    const tile = document.getElementById("w-" + p.handle);
-    if (card) card.hidden = !ok;
-    if (tile) tile.hidden = !ok;
-    if (ok) shown++;
-  }
-  document.querySelectorAll(".letter").forEach(sec => {
-    sec.hidden = ![...sec.querySelectorAll(".card")].some(el => !el.hidden);
-  });
-  document.getElementById("count").textContent = people.length ? `${shown} of ${people.length} shown` : "";
-  document.getElementById("none").hidden = shown !== 0;
-  drawRail();
-}
-
-function setView(name) {
-  view = name === "wall" ? "wall" : "directory";
-  document.getElementById("list").hidden = view !== "directory";
-  document.getElementById("wall").hidden = view !== "wall";
-  document.getElementById("rail").hidden = view !== "directory";
-  document.getElementById("view-directory").setAttribute("aria-pressed", String(view === "directory"));
-  document.getElementById("view-wall").setAttribute("aria-pressed", String(view === "wall"));
-  saveView(view);
-}
-
-function visiblePeople() {
-  return people.filter(p => {
-    const card = document.getElementById("p-" + p.handle);
-    return card && !card.hidden;
-  });
-}
-
-function paintViewer() {
-  const p = people.find(x => x.handle === viewer.handle);
-  const dialog = document.getElementById("viewer");
-  if (!p) { dialog.close(); return; }
-  const m = personMedia(p);
-  const item = viewer.kind === "avatar" ? m.avatar : m.banner;
-  const img = document.getElementById("viewer-img");
-  const fallback = document.getElementById("viewer-fallback");
-  const cap = viewer.kind === "avatar" ? `Avatar of ${p.name}` : `Banner by ${p.name}`;
-  document.getElementById("viewer-cap").textContent = cap;
-  const link = document.getElementById("viewer-link");
-  link.href = `https://x.com/${p.handle}`;
-  link.textContent = `@${p.handle}`;
-  if (item) {
-    img.hidden = false;
-    img.src = item.original;
-    img.alt = cap;
-    fallback.hidden = true;
-  } else {
-    img.hidden = true;
-    img.removeAttribute("src");
-    fallback.hidden = false;
-    fallback.style.background = hex(m.color);
-    fallback.textContent = viewer.kind === "avatar" ? initial(p) : "";
-  }
-}
-
-function openViewer(handle, kind) {
-  viewer = { handle, kind };
-  paintViewer();
-  const dialog = document.getElementById("viewer");
-  if (!dialog.open) dialog.showModal();
-}
-
-function stepViewer(dir) {
-  const vis = visiblePeople();
-  const i = vis.findIndex(p => p.handle === viewer.handle);
-  if (i < 0) return;
-  const n = i + dir;
-  if (n < 0 || n >= vis.length) return;
-  viewer.handle = vis[n].handle;
-  paintViewer();
-}
-
-function scrollToCard(handle) {
-  const card = document.getElementById("p-" + handle);
-  if (!card) return;
-  const bar = document.querySelector(".bar");
-  const top = card.getBoundingClientRect().top + window.scrollY - bar.offsetHeight - 12;
-  window.scrollTo({ top: Math.max(0, top), behavior: motion() });
-}
-
-document.getElementById("chats").addEventListener("click", e => {
-  const b = e.target.closest(".toggle");
-  if (!b) return;
-  const k = b.dataset.k;
-  active.has(k) ? active.delete(k) : active.add(k);
-  b.setAttribute("aria-pressed", String(active.has(k)));
-  apply();
-});
-document.getElementById("q").addEventListener("input", apply);
-document.getElementById("view-directory").addEventListener("click", () => setView("directory"));
-document.getElementById("view-wall").addEventListener("click", () => setView("wall"));
-document.getElementById("list").addEventListener("click", e => {
-  const b = e.target.closest("[data-kind]");
-  if (!b) return;
-  openViewer(b.dataset.handle, b.dataset.kind);
-});
-document.getElementById("wall").addEventListener("click", e => {
-  const tile = e.target.closest("[data-goto]");
-  if (!tile) return;
-  setView("directory");
-  scrollToCard(tile.dataset.goto);
-});
-const viewerEl = document.getElementById("viewer");
-viewerEl.addEventListener("click", e => { if (e.target === viewerEl) viewerEl.close(); });
-document.getElementById("viewer-close").addEventListener("click", () => viewerEl.close());
-document.addEventListener("keydown", e => {
-  if (!viewerEl.open) return;
-  if (e.key === "ArrowRight") { e.preventDefault(); stepViewer(1); }
-  if (e.key === "ArrowLeft") { e.preventDefault(); stepViewer(-1); }
-});
-
-async function main() {
-  try {
-    const [peopleRes, mediaRes] = await Promise.all([fetch("data/people.json"), fetch("data/media-manifest.json")]);
-    if (!peopleRes.ok || !mediaRes.ok) throw new Error("missing data");
-    const directory = await peopleRes.json();
-    media = (await mediaRes.json()).media || {};
-    render(directory);
-    document.getElementById("loading").hidden = true;
-    const hash = decodeURIComponent(location.hash.slice(1));
-    setView(hash.startsWith("p-") || hash.startsWith("L-") ? "directory" : loadView());
-    apply();
-    if (hash.startsWith("p-")) scrollToCard(hash.slice(2));
-    else if (hash.startsWith("L-")) document.getElementById(hash)?.scrollIntoView({ behavior: motion(), block: "start" });
-  } catch {
-    document.getElementById("loading").textContent = "The directory could not be loaded.";
-  }
-}
-main();
-</script>
+<script src="app.js"></script>
 </body>
 </html>
