@@ -4,7 +4,8 @@
   "B": "CoCA // Blood Guard",
   "O": "Cult of Crypto Art // Old World",
   "N": "CoCA // New World",
-  "G": "CoCA // Great Spirits"
+  "G": "CoCA // Great Spirits",
+  "L": "CoCA // IRL & NFC Lisbon"
  },
  "people": [
   {
@@ -18,7 +19,8 @@
     "B",
     "O",
     "N",
-    "G"
+    "G",
+    "L"
    ],
    "x_url": "https://x.com/basileus_eth",
    "source": {
@@ -36,7 +38,8 @@
    "location": "Essen, Germany",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/unityofmulti",
    "source": {
@@ -74,7 +77,8 @@
    "location": "",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/BardIonson",
    "source": {
@@ -95,7 +99,8 @@
    "location": "Italy",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/MattiaC",
    "source": {
@@ -113,7 +118,8 @@
    "location": "LDN",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/VectorMeldrew",
    "source": {
@@ -153,7 +159,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/plutonicmind",
    "source": {
@@ -172,7 +179,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/MrCNFT",
    "source": {
@@ -193,7 +201,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/WGMeets",
    "source": {
@@ -211,7 +220,8 @@
    "location": "A time long ago",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/arthr",
    "source": {
@@ -234,7 +244,8 @@
    "location": "worldwide",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/Moxarra",
    "source": {
@@ -255,7 +266,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/stina_jones",
    "source": {
@@ -274,7 +286,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/flakoubay",
    "source": {
@@ -295,7 +308,8 @@
    "location": "Lahti",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/MikkoLyytinen",
    "source": {
@@ -334,7 +348,8 @@
    "location": "Mignonverse",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/Lelapinmignon",
    "source": {
@@ -355,7 +370,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/DefiantSquid",
    "source": {
@@ -376,7 +392,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/BoyaGeorge",
    "source": {
@@ -394,7 +411,8 @@
    "location": "Metaverse",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/Dat_Ogar",
    "source": {
@@ -432,7 +450,8 @@
    "location": "",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/castorfeliz",
    "source": {
@@ -450,7 +469,8 @@
    "location": "Metaverse",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/Scooter0x",
    "source": {
@@ -490,7 +510,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/skeenee_art",
    "source": {
@@ -508,7 +529,8 @@
    "location": "Metaverse",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/SpacedPainter",
    "source": {
@@ -526,7 +548,8 @@
    "location": "UK",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/MetageistVR",
    "source": {
@@ -544,7 +567,8 @@
    "location": "Earth",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/jivdontexist",
    "source": {
@@ -562,7 +586,8 @@
    "location": "🇪🇸",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/basseadx",
    "source": {
@@ -580,7 +605,8 @@
    "location": "Links & NFTs →",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/KiboDesigns",
    "source": {
@@ -620,7 +646,8 @@
    "location": "thalamo-cortical system",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/neurocolor",
    "source": {
@@ -655,7 +682,8 @@
    "website": "https://superrare.com/barbaralove",
    "location": "web3",
    "chats": [
-    "B"
+    "B",
+    "L"
    ],
    "x_url": "https://x.com/atbarbaralove",
    "source": {
@@ -676,7 +704,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/MrMonkX",
    "source": {
@@ -697,7 +726,8 @@
    "location": "🇲🇽 & 🇩🇪",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/Ann_ahoy",
    "source": {
@@ -735,7 +765,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/sturec5",
    "source": {
@@ -756,7 +787,8 @@
    "location": "🏴‍☠️",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/DidierRA1",
    "source": {
@@ -774,7 +806,8 @@
    "location": "deployed",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/ForcesHidden",
    "source": {
@@ -795,7 +828,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/animatttic",
    "source": {
@@ -818,7 +852,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/Soulinearte",
    "source": {
@@ -838,7 +873,8 @@
    "location": "Brooklyn, NY",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/MetaBrookHawk",
    "source": {
@@ -922,7 +958,8 @@
    "chats": [
     "B",
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/Richi0118",
    "source": {
@@ -959,7 +996,8 @@
    "chats": [
     "B",
     "O",
-    "G"
+    "G",
+    "L"
    ],
    "x_url": "https://x.com/jaendotart",
    "source": {
@@ -1001,7 +1039,8 @@
    "location": "cryptoart",
    "chats": [
     "B",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/I____felix____I",
    "source": {
@@ -1056,7 +1095,8 @@
    "location": "",
    "chats": [
     "B",
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/LukeGerbil",
    "source": {
@@ -1150,7 +1190,8 @@
    "website": "https://www.venusmaschine.com/",
    "location": "Venus",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/Reinhard_Schmid",
    "source": {
@@ -1192,7 +1233,8 @@
    "website": "",
    "location": "Lisbon, Portugal",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/enderdiril",
    "source": {
@@ -1262,7 +1304,8 @@
    "website": "https://www.0xmj.com/",
    "location": "",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/0xmj_",
    "source": {
@@ -1279,7 +1322,8 @@
    "website": "",
    "location": "",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/svc_hb",
    "source": {
@@ -1368,7 +1412,8 @@
    "website": "https://orabelart.com",
    "location": "",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/orabelart",
    "source": {
@@ -1729,7 +1774,8 @@
    "website": "http://rizzle.io",
    "location": "Metaverse",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/NFTland",
    "source": {
@@ -1785,7 +1831,8 @@
    "location": "France",
    "chats": [
     "O",
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/bygrida",
    "source": {
@@ -1841,7 +1888,8 @@
    "website": "https://linktr.ee/cyber_yuyu",
    "location": "YuYuverse",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/cyber_yuyu",
    "source": {
@@ -1964,7 +2012,8 @@
    "website": "",
    "location": "",
    "chats": [
-    "O"
+    "O",
+    "L"
    ],
    "x_url": "https://x.com/VectorVisionist",
    "source": {
@@ -2001,7 +2050,8 @@
    "website": "https://www.nikolinapetolas.com/links",
    "location": "Nikoverse",
    "chats": [
-    "N"
+    "N",
+    "L"
    ],
    "x_url": "https://x.com/NikolinaPetolas",
    "source": {
@@ -2196,7 +2246,8 @@
    "website": "https://www.nfcsummit.com",
    "location": "Lisbon, Portugal",
    "chats": [
-    "G"
+    "G",
+    "L"
    ],
    "x_url": "https://x.com/johnkarp",
    "source": {
@@ -2289,7 +2340,8 @@
    "website": "https://linktr.ee/AndreaChiampo",
    "location": "London",
    "chats": [
-    "G"
+    "G",
+    "L"
    ],
    "x_url": "https://x.com/Andrea_Chiampo",
    "source": {
@@ -2351,6 +2403,233 @@
     "avatar_original": "https://pbs.twimg.com/profile_images/1608981076566843394/b6kK3iA8.png",
     "avatar_400": "https://pbs.twimg.com/profile_images/1608981076566843394/b6kK3iA8_400x400.png",
     "banner_1500": "https://pbs.twimg.com/profile_banners/1336412479770025994/1698521355/1500x500"
+   }
+  },
+  {
+   "handle": "jose_ramos",
+   "name": "José Ramos",
+   "bio": "📷 Photographer & Storyteller since 2004 🟨 Nat Geo Published⚕️ Psychiatrist MD 🖼 SuperRare & 6529 Meme Artist 💙 Mental Health & Art 🍄 Psychedelics 🌲Nature",
+   "bioLinks": [],
+   "website": "https://www.joseramos.com",
+   "location": "Portugal, Lisbon",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/jose_ramos",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1491216400471494660/5CoYK-LM.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1491216400471494660/5CoYK-LM_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/26399192/1612835975/1500x500"
+   }
+  },
+  {
+   "handle": "HANDIEDAN",
+   "name": "𝐇𝐀𝐍𝐃𝐈𝐄𝐃𝐀𝐍 ✂️💾",
+   "bio": "𝚄𝙱𝙸𝚀𝚄𝙸𝚃𝙾𝚄𝚂 | @amelie_in_space | 𝚂𝚘𝚕𝚘 𝙴𝚡𝚑𝚒𝚋𝚒𝚝𝚒𝚘𝚗 | 𝙾𝚌𝚝𝚘𝚋𝚎𝚛 𝟸𝟶𝟸𝟼",
+   "bioLinks": [],
+   "website": "https://www.handiedan.com",
+   "location": "𝐒𝐏𝐀𝐂𝐄𝐓𝐈𝐌𝐄",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/HANDIEDAN",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1962416896130641920/vRfhzAeQ.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1962416896130641920/vRfhzAeQ_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/44388777/1771706634/1500x500"
+   }
+  },
+  {
+   "handle": "Paradoxx_Arts",
+   "name": "Paradoxx",
+   "bio": "Video Artist | Producer | Cameraman | Generative Artist | Co creator of @CodeTripNFT | #MetaverseCribs Working with @monaverse | @thewipmeetup",
+   "bioLinks": [],
+   "website": "https://linktr.ee/Paradoxx.Arts",
+   "location": "The Metaverse",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/Paradoxx_Arts",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1833126113003925504/2MUdb12j.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1833126113003925504/2MUdb12j_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/288510938/1725545575/1500x500"
+   }
+  },
+  {
+   "handle": "osinachiart",
+   "name": "Osinachi 🎨",
+   "bio": "Artist-in-residence @padimai_gallery ¦ First-ever African artist in the NFT space ¦ Crypto art since 2018 ¦ All artworks made in Microsoft Word | IG __osinachi",
+   "bioLinks": [],
+   "website": "http://www.osinachi.com",
+   "location": "Lagos, Nigeria",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/osinachiart",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1987926572347629568/eifIy-Pr.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1987926572347629568/eifIy-Pr_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/382044081/1777461670/1500x500"
+   }
+  },
+  {
+   "handle": "vinnythesnail",
+   "name": "Vinny the Snail",
+   "bio": "Writer, Editor, Narrative Strategist, formerly @SuperRare @MintGoldDust @DefiantNews",
+   "bioLinks": [],
+   "website": "https://vinnythesnail.com/",
+   "location": "New York, NY",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/vinnythesnail",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1660656489533521926/ywyLAOet.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1660656489533521926/ywyLAOet_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/602097645/1782144702/1500x500"
+   }
+  },
+  {
+   "handle": "carlosmarcialt",
+   "name": "Carlos Marcial",
+   "bio": "Co-founder @ Areia Labs, building:\n📁 http://trygoodfolder.com - See & undo AI agent edits\n📞 http://voxandra.com - Live call translation\n💬 http://chatrag.ai - AI chatbots in hours",
+   "bioLinks": [
+    "http://trygoodfolder.com",
+    "http://voxandra.com",
+    "http://chatrag.ai"
+   ],
+   "website": "https://areialabs.org",
+   "location": "Lisboa",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/carlosmarcialt",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/2082807362633539584/eoMinScg.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/2082807362633539584/eoMinScg_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/729816362/1784564913/1500x500"
+   }
+  },
+  {
+   "handle": "VBonapace",
+   "name": "Vittorio Bonapace",
+   "bio": "Phyhital Artist. Sold out on @SuperRare. Sold at @Sothebys. Sold at @saatchi_gallery. @AOTMgallery. Last Commissioned work ‘Deus Ex Machina’ for @dolcegabbana",
+   "bioLinks": [],
+   "website": "https://x.com/dolcegabbana/status/1779177862358008032?s=46",
+   "location": "London, UK",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/VBonapace",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1777655166851780608/LGOTYiJS.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1777655166851780608/LGOTYiJS_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/1249312855/1771531877/1500x500"
+   }
+  },
+  {
+   "handle": "niftytime",
+   "name": "matthew aka niftytime",
+   "bio": "Forecasting at @QuotientHQ | Created @theWIPmeetup | Prev @Cent @Gemini @Samsung | @maxosirisart PFP | Gazer #196",
+   "bioLinks": [],
+   "website": "https://www.farcaster.id/niftytime.eth",
+   "location": "PDX",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/niftytime",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1556745427331973121/guoKaj6k.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1556745427331973121/guoKaj6k_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/3092640612/1725094787/1500x500"
+   }
+  },
+  {
+   "handle": "aljaparis",
+   "name": "Aleksandra Art 🇺🇦",
+   "bio": "Head of Arts @trilitech @artontezos_ @e_artefacts aleks.tez 🟦 Internet Culture, Blockchain ✍🏼 https://aleksandraart.substack.com",
+   "bioLinks": [
+    "https://aleksandraart.substack.com"
+   ],
+   "website": "https://www.aleksandra.art",
+   "location": "London, England",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/aljaparis",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1950634842971889664/RIhotXN1.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1950634842971889664/RIhotXN1_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/4783708769/1764687053/1500x500"
+   }
+  },
+  {
+   "handle": "PeepingTallulah",
+   "name": "PEEPS",
+   "bio": "i make things you can feel.\ncurrent mint - CONNECTIONS-INTERCONNECTIONS\nfully onchain protocal art defined by those who participate.",
+   "bioLinks": [],
+   "website": "http://www.peepslovesyou.com",
+   "location": "London, England",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/PeepingTallulah",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/2106451021102800896/viX04imX.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/2106451021102800896/viX04imX_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/949399536581169157/1773579331/1500x500"
+   }
+  },
+  {
+   "handle": "GISELXPHOTO",
+   "name": "WEB3GISEL",
+   "bio": "Artist in Light #MOONLANGUAGE Photographic Digital Medium in Multiverse. Building a local browser based software for artists #ARCHIV4D",
+   "bioLinks": [],
+   "website": "http://web3photo.com",
+   "location": "New York, USA",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/GISELXPHOTO",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1982173335803834368/EsYC1IPL.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1982173335803834368/EsYC1IPL_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/1184100590323929090/1783454355/1500x500"
+   }
+  },
+  {
+   "handle": "PanterXhita",
+   "name": "Panter Xhita",
+   "bio": "·Artist· \nb. Argentina\n\n·painting as ritual·",
+   "bioLinks": [],
+   "website": "https://panterxhita.com",
+   "location": "",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/PanterXhita",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/2067918658639159297/FLgWPcw3.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/2067918658639159297/FLgWPcw3_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/1332129243929731072/1661772231/1500x500"
+   }
+  },
+  {
+   "handle": "john_villat",
+   "name": "John Villat",
+   "bio": "Dad² | Digital Art Collector & Advisor | Founder & Managing Director @SenaryStudio | Banner: Shot from Les Fleurs du Mal #6 by @rvig_art",
+   "bioLinks": [],
+   "website": "https://senary.art/",
+   "location": "",
+   "chats": [
+    "L"
+   ],
+   "x_url": "https://x.com/john_villat",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/2026028365845614592/9u3srnGW.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/2026028365845614592/9u3srnGW_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/1440034061670445057/1771879804/1500x500"
    }
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T18:45:48.514Z",
+ "generated": "2026-10-13T05:33:16.933Z",
  "media": {
   "basileus_eth": {
    "avatar": {
@@ -2125,6 +2125,227 @@
     "src1500": "media/web/ClaireSilver-banner-1500.webp"
    },
    "color": "#688898"
+  },
+  "jose_ramos": {
+   "avatar": {
+    "original": "media/originals/jose_ramos-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/jose_ramos-avatar-256.webp",
+    "src512": "media/web/jose_ramos-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/jose_ramos-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/jose_ramos-banner-750.webp",
+    "src1500": "media/web/jose_ramos-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "handiedan": {
+   "avatar": {
+    "original": "media/originals/HANDIEDAN-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/HANDIEDAN-avatar-256.webp",
+    "src512": "media/web/HANDIEDAN-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/HANDIEDAN-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/HANDIEDAN-banner-750.webp",
+    "src1500": "media/web/HANDIEDAN-banner-1500.webp"
+   },
+   "color": "#489898"
+  },
+  "paradoxx_arts": {
+   "avatar": {
+    "original": "media/originals/Paradoxx_Arts-avatar.jpg",
+    "w": 293,
+    "h": 293,
+    "src256": "media/web/Paradoxx_Arts-avatar-256.webp",
+    "src512": "media/web/Paradoxx_Arts-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/Paradoxx_Arts-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/Paradoxx_Arts-banner-750.webp",
+    "src1500": "media/web/Paradoxx_Arts-banner-1500.webp"
+   },
+   "color": "#f8f8e8"
+  },
+  "osinachiart": {
+   "avatar": {
+    "original": "media/originals/osinachiart-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/osinachiart-avatar-256.webp",
+    "src512": "media/web/osinachiart-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/osinachiart-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/osinachiart-banner-750.webp",
+    "src1500": "media/web/osinachiart-banner-1500.webp"
+   },
+   "color": "#28a8b8"
+  },
+  "vinnythesnail": {
+   "avatar": {
+    "original": "media/originals/vinnythesnail-avatar.jpg",
+    "w": 399,
+    "h": 399,
+    "src256": "media/web/vinnythesnail-avatar-256.webp",
+    "src512": "media/web/vinnythesnail-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/vinnythesnail-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/vinnythesnail-banner-750.webp",
+    "src1500": "media/web/vinnythesnail-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
+  },
+  "carlosmarcialt": {
+   "avatar": {
+    "original": "media/originals/carlosmarcialt-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/carlosmarcialt-avatar-256.webp",
+    "src512": "media/web/carlosmarcialt-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/carlosmarcialt-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/carlosmarcialt-banner-750.webp",
+    "src1500": "media/web/carlosmarcialt-banner-1500.webp"
+   },
+   "color": "#484828"
+  },
+  "vbonapace": {
+   "avatar": {
+    "original": "media/originals/VBonapace-avatar.jpg",
+    "w": 399,
+    "h": 399,
+    "src256": "media/web/VBonapace-avatar-256.webp",
+    "src512": "media/web/VBonapace-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/VBonapace-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/VBonapace-banner-750.webp",
+    "src1500": "media/web/VBonapace-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "niftytime": {
+   "avatar": {
+    "original": "media/originals/niftytime-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/niftytime-avatar-256.webp",
+    "src512": "media/web/niftytime-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/niftytime-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/niftytime-banner-750.webp",
+    "src1500": "media/web/niftytime-banner-1500.webp"
+   },
+   "color": "#c8c8c8"
+  },
+  "aljaparis": {
+   "avatar": {
+    "original": "media/originals/aljaparis-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/aljaparis-avatar-256.webp",
+    "src512": "media/web/aljaparis-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/aljaparis-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/aljaparis-banner-750.webp",
+    "src1500": "media/web/aljaparis-banner-1500.webp"
+   },
+   "color": "#988868"
+  },
+  "peepingtallulah": {
+   "avatar": {
+    "original": "media/originals/PeepingTallulah-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/PeepingTallulah-avatar-256.webp",
+    "src512": "media/web/PeepingTallulah-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/PeepingTallulah-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/PeepingTallulah-banner-750.webp",
+    "src1500": "media/web/PeepingTallulah-banner-1500.webp"
+   },
+   "color": "#a8a8a8"
+  },
+  "giselxphoto": {
+   "avatar": {
+    "original": "media/originals/GISELXPHOTO-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/GISELXPHOTO-avatar-256.webp",
+    "src512": "media/web/GISELXPHOTO-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/GISELXPHOTO-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/GISELXPHOTO-banner-750.webp",
+    "src1500": "media/web/GISELXPHOTO-banner-1500.webp"
+   },
+   "color": "#b8b8b8"
+  },
+  "panterxhita": {
+   "avatar": {
+    "original": "media/originals/PanterXhita-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/PanterXhita-avatar-256.webp",
+    "src512": "media/web/PanterXhita-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/PanterXhita-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/PanterXhita-banner-750.webp",
+    "src1500": "media/web/PanterXhita-banner-1500.webp"
+   },
+   "color": "#d8b8a8"
+  },
+  "john_villat": {
+   "avatar": {
+    "original": "media/originals/john_villat-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/john_villat-avatar-256.webp",
+    "src512": "media/web/john_villat-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/john_villat-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/john_villat-banner-750.webp",
+    "src1500": "media/web/john_villat-banner-1500.webp"
+   },
+   "color": "#f8f8f8"
   }
  }
 }
