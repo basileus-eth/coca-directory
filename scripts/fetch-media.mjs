@@ -2,7 +2,7 @@
 // Downloads every member's avatar and banner from X at full quality, keeps the
 // originals untouched, and writes web-sized copies plus a manifest the page reads.
 //
-// Usage:  npm install sharp@0.33.5   (once)
+// Usage:  npm install sharp@0.35.5   (once)
 //         node scripts/fetch-media.mjs            # fetch anything not yet downloaded
 //         node scripts/fetch-media.mjs --refresh  # re-download everything
 //
