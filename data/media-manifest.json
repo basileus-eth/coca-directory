@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T00:38:26.211Z",
+ "generated": "2026-10-15T02:13:54.222Z",
  "media": {
   "basileus_eth": {
    "avatar": {
@@ -2363,6 +2363,40 @@
     "src1500": "media/web/GustaTonya-banner-1500.webp"
    },
    "color": "#181808"
+  },
+  "eclecticmethod": {
+   "avatar": {
+    "original": "media/originals/EclecticMethod-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/EclecticMethod-avatar-256.webp",
+    "src512": "media/web/EclecticMethod-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/EclecticMethod-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/EclecticMethod-banner-750.webp",
+    "src1500": "media/web/EclecticMethod-banner-1500.webp"
+   },
+   "color": "#080808"
+  },
+  "neonglitch86": {
+   "avatar": {
+    "original": "media/originals/neonglitch86-avatar.jpg",
+    "w": 399,
+    "h": 399,
+    "src256": "media/web/neonglitch86-avatar-256.webp",
+    "src512": "media/web/neonglitch86-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/neonglitch86-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/neonglitch86-banner-750.webp",
+    "src1500": "media/web/neonglitch86-banner-1500.webp"
+   },
+   "color": "#080808"
   }
  }
 }

@@ -23,7 +23,8 @@
     "N",
     "G",
     "L",
-    "A"
+    "A",
+    "C"
    ],
    "x_url": "https://x.com/basileus_eth",
    "source": {
@@ -122,7 +123,8 @@
    "chats": [
     "B",
     "O",
-    "L"
+    "L",
+    "C"
    ],
    "x_url": "https://x.com/VectorMeldrew",
    "source": {
@@ -226,7 +228,8 @@
     "B",
     "O",
     "L",
-    "A"
+    "A",
+    "C"
    ],
    "x_url": "https://x.com/arthr",
    "source": {
@@ -354,7 +357,8 @@
    "chats": [
     "B",
     "O",
-    "L"
+    "L",
+    "C"
    ],
    "x_url": "https://x.com/Lelapinmignon",
    "source": {
@@ -418,7 +422,8 @@
     "B",
     "O",
     "L",
-    "A"
+    "A",
+    "C"
    ],
    "x_url": "https://x.com/Dat_Ogar",
    "source": {
@@ -594,7 +599,8 @@
     "B",
     "O",
     "L",
-    "A"
+    "A",
+    "C"
    ],
    "x_url": "https://x.com/basseadx",
    "source": {
@@ -654,7 +660,8 @@
    "chats": [
     "B",
     "O",
-    "L"
+    "L",
+    "C"
    ],
    "x_url": "https://x.com/neurocolor",
    "source": {
@@ -860,7 +867,8 @@
     "B",
     "O",
     "N",
-    "L"
+    "L",
+    "C"
    ],
    "x_url": "https://x.com/Soulinearte",
    "source": {
@@ -1005,7 +1013,8 @@
     "O",
     "G",
     "L",
-    "A"
+    "A",
+    "C"
    ],
    "x_url": "https://x.com/jaendotart",
    "source": {
@@ -1144,8 +1153,7 @@
    "location": "Global",
    "chats": [
     "O",
-    "N",
-    "C"
+    "N"
    ],
    "x_url": "https://x.com/theAngieTaylor",
    "source": {
@@ -1619,7 +1627,8 @@
    "website": "https://geniuscorp.fr/m33-zeroday",
    "location": "Paris",
    "chats": [
-    "O"
+    "O",
+    "C"
    ],
    "x_url": "https://x.com/Mighty_33",
    "source": {
@@ -2369,8 +2378,7 @@
    "website": "",
    "location": "left baguette. then croissant",
    "chats": [
-    "G",
-    "C"
+    "G"
    ],
    "x_url": "https://x.com/luluixixix",
    "source": {
@@ -2657,6 +2665,40 @@
     "avatar_original": "https://pbs.twimg.com/profile_images/1757079771148701696/FMZN7S1Q.jpg",
     "avatar_400": "https://pbs.twimg.com/profile_images/1757079771148701696/FMZN7S1Q_400x400.jpg",
     "banner_1500": "https://pbs.twimg.com/profile_banners/1258678862747222016/1707755438/1500x500"
+   }
+  },
+  {
+   "handle": "EclecticMethod",
+   "name": "Eclectic Method ♻️",
+   "bio": "VIDEO REMIX AI ♻️📼📺",
+   "bioLinks": [],
+   "website": "https://linktr.ee/eclecticmethod",
+   "location": "",
+   "chats": [
+    "C"
+   ],
+   "x_url": "https://x.com/EclecticMethod",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1605805415635247104/MrDmVJTX.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1605805415635247104/MrDmVJTX_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/20882981/1715537829/1500x500"
+   }
+  },
+  {
+   "handle": "neonglitch86",
+   "name": "NeonGlitch86",
+   "bio": "3D Artist, VORTEX, ETH9000 | @VORTEX5D",
+   "bioLinks": [],
+   "website": "https://linktr.ee/NeonGlitch86",
+   "location": "ETH9000.com",
+   "chats": [
+    "C"
+   ],
+   "x_url": "https://x.com/neonglitch86",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1996252968698642433/FZs7ajmG.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1996252968698642433/FZs7ajmG_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/1250465843386826753/1784786354/1500x500"
    }
   }
  ]
