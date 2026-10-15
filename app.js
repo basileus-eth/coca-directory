@@ -332,7 +332,7 @@ function render(directory) {
   people = (directory.people || []).map(prepare).sort((a, b) =>
     (a.letter === "#") - (b.letter === "#") || a.key.localeCompare(b.key, "en", { sensitivity: "base" })
   );
-  active = new Set(Object.keys(chatFull));
+  active = new Set();
   const groups = {};
   for (const person of people) (groups[person.letter] ||= []).push(person);
   const letters = Object.keys(groups).sort((a, b) => (a === "#") - (b === "#") || a.localeCompare(b));
@@ -362,7 +362,7 @@ function render(directory) {
     button.className = "toggle";
     button.type = "button";
     button.dataset.k = key;
-    button.setAttribute("aria-pressed", "true");
+    button.setAttribute("aria-pressed", "false");
     button.title = full;
     const dot = document.createElement("span");
     dot.className = chatClass(key) ? `dot ${chatClass(key)}` : "dot";
@@ -418,7 +418,8 @@ function apply() {
   const terms = document.getElementById("q").value.toLowerCase().trim().split(/\s+/).filter(Boolean);
   let shown = 0;
   for (const person of people) {
-    const ok = person.chats.some(key => active.has(key)) && terms.every(term => person.hay.includes(term));
+    const inChat = active.size === 0 || person.chats.some(key => active.has(key));
+    const ok = inChat && terms.every(term => person.hay.includes(term));
     const entry = document.getElementById(`p-${person.handle}`);
     const wallTile = document.getElementById(`w-${person.handle}`);
     if (entry) entry.hidden = !ok;
