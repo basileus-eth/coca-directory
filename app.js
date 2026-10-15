@@ -1,6 +1,6 @@
 // TODO: add the pinned X post URL beside the @basileus_eth credit when it exists.
 
-const SHORT = { B: "Blood Guard", O: "Old World", N: "New World", G: "Great Spirits", L: "IRL & NFC Lisbon", A: "Auxiliaire" };
+const SHORT = { B: "Blood Guard", O: "Old World", N: "New World", G: "Great Spirits", L: "IRL & NFC Lisbon", A: "Auxiliaire", C: "Choir" };
 const VIEW_KEY = "coca-directory-view";
 
 const httpUrl = value => {

@@ -6,7 +6,8 @@
   "N": "CoCA // New World",
   "G": "CoCA // Great Spirits",
   "L": "CoCA // IRL & NFC Lisbon",
-  "A": "CoCA // Auxiliaire"
+  "A": "CoCA // Auxiliaire",
+  "C": "CoCA // Choir"
  },
  "people": [
   {
@@ -1143,7 +1144,8 @@
    "location": "Global",
    "chats": [
     "O",
-    "N"
+    "N",
+    "C"
    ],
    "x_url": "https://x.com/theAngieTaylor",
    "source": {
@@ -2367,7 +2369,8 @@
    "website": "",
    "location": "left baguette. then croissant",
    "chats": [
-    "G"
+    "G",
+    "C"
    ],
    "x_url": "https://x.com/luluixixix",
    "source": {
@@ -2637,6 +2640,23 @@
     "avatar_original": "https://pbs.twimg.com/profile_images/2026028365845614592/9u3srnGW.jpg",
     "avatar_400": "https://pbs.twimg.com/profile_images/2026028365845614592/9u3srnGW_400x400.jpg",
     "banner_1500": "https://pbs.twimg.com/profile_banners/1440034061670445057/1771879804/1500x500"
+   }
+  },
+  {
+   "handle": "GustaTonya",
+   "name": "CAZLAB",
+   "bio": "",
+   "bioLinks": [],
+   "website": "https://linktr.ee/cazlab",
+   "location": "",
+   "chats": [
+    "C"
+   ],
+   "x_url": "https://x.com/GustaTonya",
+   "source": {
+    "avatar_original": "https://pbs.twimg.com/profile_images/1757079771148701696/FMZN7S1Q.jpg",
+    "avatar_400": "https://pbs.twimg.com/profile_images/1757079771148701696/FMZN7S1Q_400x400.jpg",
+    "banner_1500": "https://pbs.twimg.com/profile_banners/1258678862747222016/1707755438/1500x500"
    }
   }
  ]

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T05:33:16.933Z",
+ "generated": "2026-10-15T00:38:26.211Z",
  "media": {
   "basileus_eth": {
    "avatar": {
@@ -2346,6 +2346,23 @@
     "src1500": "media/web/john_villat-banner-1500.webp"
    },
    "color": "#f8f8f8"
+  },
+  "gustatonya": {
+   "avatar": {
+    "original": "media/originals/GustaTonya-avatar.jpg",
+    "w": 400,
+    "h": 400,
+    "src256": "media/web/GustaTonya-avatar-256.webp",
+    "src512": "media/web/GustaTonya-avatar-512.webp"
+   },
+   "banner": {
+    "original": "media/originals/GustaTonya-banner.jpg",
+    "w": 1500,
+    "h": 500,
+    "src750": "media/web/GustaTonya-banner-750.webp",
+    "src1500": "media/web/GustaTonya-banner-1500.webp"
+   },
+   "color": "#181808"
   }
  }
 }
