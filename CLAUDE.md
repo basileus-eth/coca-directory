@@ -1,6 +1,6 @@
 # Claude Code rules for coca-directory
 
-This repo sits in `~/code`, outside `~/emperor`, so `~/emperor/CLAUDE.md` does not load on its own. Read it first. It covers git, anonymity, secrets, code, review, and prose, and wins where this file differs. If that file is missing, ask the owner before any push or any account, remote, or credential change, and otherwise follow the rules below and `README.md`.
+This repo sits in `~/code`, outside `~/emperor`, so `~/emperor/CLAUDE.md` does not load on its own. Read it first. It covers git, anonymity, secrets, code, review, and prose, and wins where this file differs. If that file is missing, stop and ask the owner before any push, `gh` write call, or account, remote, or credential change, and if you cannot ask, do none of them. Otherwise follow the rules below and `README.md`.
 
 Land every change with the `/basileus-pr` skill.
 
